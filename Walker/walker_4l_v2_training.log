@@ -1,0 +1,4258 @@
+Found path: /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker.x86_64
+Mono path[0] = '/home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Managed'
+Mono config path = '/home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/MonoBleedingEdge/etc'
+Preloaded 'libgrpc_csharp_ext.x64.so'
+Preloaded 'ScreenSelector.so'
+Initialize engine version: 2019.2.17f1 (8e603399ca02)
+[XR] Discovering subsystems at path /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.041 seconds
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+UnloadTime: 0.423744 ms
+Plugins: Couldn't open libcoreclr, error: libcoreclr: cannot open shared object file: No such file or directory
+ 
+(Filename: ./Runtime/Misc/Plugins.cpp Line: 306)
+
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libcoreclr.so
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libcoreclr.so
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libcoreclr.so
+Plugins: Couldn't open libdl, error: libdl: cannot open shared object file: No such file or directory
+ 
+(Filename: ./Runtime/Misc/Plugins.cpp Line: 306)
+
+Plugins: Couldn't open libSystem, error: libSystem: cannot open shared object file: No such file or directory
+ 
+(Filename: ./Runtime/Misc/Plugins.cpp Line: 306)
+
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libSystem.dylib
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libSystem.dylib.so
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libSystem.dylib
+Plugins: Couldn't open libcoreclr, error: libcoreclr: cannot open shared object file: No such file or directory
+ 
+(Filename: ./Runtime/Misc/Plugins.cpp Line: 306)
+
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libcoreclr.so
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libcoreclr.so
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libcoreclr.so
+Plugins: Couldn't open libdl, error: libdl: cannot open shared object file: No such file or directory
+ 
+(Filename: ./Runtime/Misc/Plugins.cpp Line: 306)
+
+Plugins: Couldn't open libSystem, error: libSystem: cannot open shared object file: No such file or directory
+ 
+(Filename: ./Runtime/Misc/Plugins.cpp Line: 306)
+
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libSystem.dylib
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libSystem.dylib.so
+Fallback handler could not load library /home/kjw/Documents/ML-Agent Projects/RL_training/DDPG/Walker/../../envs/Walker/Walker_Data/Mono/libSystem.dylib
+requesting resize 80 x 80
+Pretrained actor network found & loaded
+Pretrained critic network found & loaded
+Episode: 0
+	Score: 52.34247863398527
+	Avg past 100 score: nan
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 1
+	Score: 20.06400092877448
+	Avg past 100 score: 52.34247863398527
+Episode: 2
+	Score: 21.518363528546285
+	Avg past 100 score: 36.20323978137988
+Episode: 3
+	Score: 20.38440829409625
+	Avg past 100 score: 31.30828103043535
+Episode: 4
+	Score: 49.31874264971439
+	Avg past 100 score: 28.577312846350573
+Episode: 5
+	Score: 20.76189888107844
+	Avg past 100 score: 32.72559880702333
+Episode: 6
+	Score: 93.35506065562366
+	Avg past 100 score: 30.731648819365855
+Episode: 7
+	Score: 38.80736733752895
+	Avg past 100 score: 39.67785051025982
+Episode: 8
+	Score: 27.897830712227993
+	Avg past 100 score: 39.569040113668464
+Episode: 9
+	Score: 38.07462443199685
+	Avg past 100 score: 38.272239069063964
+Episode: 10
+	Score: 23.614992687097665
+	Avg past 100 score: 38.25247760535725
+Episode: 11
+	Score: 37.503983484411776
+	Avg past 100 score: 36.92179715824274
+Episode: 12
+	Score: 49.370429345321924
+	Avg past 100 score: 36.970312685423494
+Episode: 13
+	Score: 56.44135253334588
+	Avg past 100 score: 37.924167813107985
+Episode: 14
+	Score: 22.072380438150667
+	Avg past 100 score: 39.24682386455355
+Episode: 15
+	Score: 76.9518562918529
+	Avg past 100 score: 38.10186096946002
+Episode: 16
+	Score: 21.72384993181649
+	Avg past 100 score: 40.529985677109586
+Episode: 17
+	Score: 36.19648562651128
+	Avg past 100 score: 39.4237423979747
+Episode: 18
+	Score: 34.450301287187756
+	Avg past 100 score: 39.24445035511562
+Episode: 19
+	Score: 28.867211709391665
+	Avg past 100 score: 38.992126719961526
+Episode: 20
+	Score: 40.66794871132482
+	Avg past 100 score: 38.48588096943303
+Episode: 21
+	Score: 55.04475050334903
+	Avg past 100 score: 38.58978895714216
+Episode: 22
+	Score: 11.63828363261101
+	Avg past 100 score: 39.33774175469702
+Episode: 23
+	Score: 33.468252235092216
+	Avg past 100 score: 38.13341748851937
+Episode: 24
+	Score: 32.00544358197262
+	Avg past 100 score: 37.9390356029599
+Episode: 25
+	Score: 34.71167210273614
+	Avg past 100 score: 37.70169192212041
+Episode: 26
+	Score: 48.094647790432326
+	Avg past 100 score: 37.5866911598364
+Episode: 27
+	Score: 15.582208736376328
+	Avg past 100 score: 37.97587473874736
+Episode: 28
+	Score: 29.709676784553192
+	Avg past 100 score: 37.17610095294839
+Episode: 29
+	Score: 39.22718473803252
+	Avg past 100 score: 36.918638050589934
+Episode: 30
+	Score: 31.155800958079368
+	Avg past 100 score: 36.995589606838024
+Episode: 31
+	Score: 23.671457281336185
+	Avg past 100 score: 36.80720932784581
+Episode: 32
+	Score: 14.69178323075175
+	Avg past 100 score: 36.396717076392385
+Episode: 33
+	Score: 28.224383346313097
+	Avg past 100 score: 35.73899180834267
+Episode: 34
+	Score: 10.208105005154556
+	Avg past 100 score: 35.51797391240062
+Episode: 35
+	Score: 14.768050928261468
+	Avg past 100 score: 34.79483480076502
+Episode: 36
+	Score: 22.311643159016967
+	Avg past 100 score: 34.238535248751035
+Episode: 37
+	Score: 31.854652481492273
+	Avg past 100 score: 33.916186813893354
+Episode: 38
+	Score: 24.899653086100106
+	Avg past 100 score: 33.861935910409116
+Episode: 39
+	Score: 56.15499762462621
+	Avg past 100 score: 33.632133786708884
+Episode: 40
+	Score: 21.00224459052763
+	Avg past 100 score: 34.19520538265682
+Episode: 41
+	Score: 28.83110804474828
+	Avg past 100 score: 33.87342585114148
+Episode: 42
+	Score: 15.526494920253754
+	Avg past 100 score: 33.75337066527497
+Episode: 43
+	Score: 24.8111848438328
+	Avg past 100 score: 33.32948983399541
+Episode: 44
+	Score: 10.537022500044921
+	Avg past 100 score: 33.13589199330989
+Episode: 45
+	Score: 27.593332497572348
+	Avg past 100 score: 32.63369489345956
+Episode: 46
+	Score: 15.94281860923564
+	Avg past 100 score: 32.5241217978968
+Episode: 47
+	Score: 18.105228247205645
+	Avg past 100 score: 32.17132811303167
+Episode: 48
+	Score: 21.676747619597748
+	Avg past 100 score: 31.878284365826953
+Episode: 49
+	Score: 49.80743584764951
+	Avg past 100 score: 31.67008973835289
+Episode: 50
+	Score: 27.98195764828812
+	Avg past 100 score: 32.03283666053882
+Episode: 51
+	Score: 37.50764319690114
+	Avg past 100 score: 31.95340766029861
+Episode: 52
+	Score: 34.543555894189254
+	Avg past 100 score: 32.060219882156346
+Episode: 53
+	Score: 37.141445187513106
+	Avg past 100 score: 32.1070752786098
+Episode: 54
+	Score: 17.603729183870286
+	Avg past 100 score: 32.200304350996895
+Episode: 55
+	Score: 23.88138171547854
+	Avg past 100 score: 31.934912075230958
+Episode: 56
+	Score: 58.54208431782369
+	Avg past 100 score: 31.791099033092525
+Episode: 57
+	Score: 17.399290357293054
+	Avg past 100 score: 32.2604145644036
+Episode: 58
+	Score: 8.786492760293186
+	Avg past 100 score: 32.00418828497066
+Episode: 59
+	Score: 51.549619483592146
+	Avg past 100 score: 31.61066802184053
+Episode: 60
+	Score: 16.683914884713225
+	Avg past 100 score: 31.94298387953639
+Episode: 61
+	Score: 11.217025677080859
+	Avg past 100 score: 31.69283520749011
+Episode: 62
+	Score: 32.181836546652704
+	Avg past 100 score: 31.36258021506415
+Episode: 63
+	Score: 49.724172084592276
+	Avg past 100 score: 31.375584283819524
+Episode: 64
+	Score: 38.24478152834556
+	Avg past 100 score: 31.662280968206602
+Episode: 65
+	Score: 10.755016272040931
+	Avg past 100 score: 31.76355020759335
+Episode: 66
+	Score: 17.73429028029469
+	Avg past 100 score: 31.44523908735771
+Episode: 67
+	Score: 26.40142080725425
+	Avg past 100 score: 31.24059806038662
+Episode: 68
+	Score: 15.115403263406318
+	Avg past 100 score: 31.16943368901703
+Episode: 69
+	Score: 15.874989526346328
+	Avg past 100 score: 30.936766581399482
+Episode: 70
+	Score: 34.332789890806794
+	Avg past 100 score: 30.721598337755864
+Episode: 71
+	Score: 34.03342521440406
+	Avg past 100 score: 30.77246019061574
+Episode: 72
+	Score: 44.385720801793724
+	Avg past 100 score: 30.817751371501686
+Episode: 73
+	Score: 46.455776391550884
+	Avg past 100 score: 31.003613966437197
+Episode: 74
+	Score: 40.9259874656458
+	Avg past 100 score: 31.212426972181976
+Episode: 75
+	Score: 19.15232235862112
+	Avg past 100 score: 31.34194111209483
+Episode: 76
+	Score: 8.02833830400116
+	Avg past 100 score: 31.18155139165438
+Episode: 77
+	Score: 18.158038105984986
+	Avg past 100 score: 30.88086031259395
+Episode: 78
+	Score: 67.21071386913005
+	Avg past 100 score: 30.71774720738101
+Episode: 79
+	Score: 32.16422023437918
+	Avg past 100 score: 31.179683494238592
+Episode: 80
+	Score: 37.796887944325476
+	Avg past 100 score: 31.191990203490356
+Episode: 81
+	Score: 40.76857099986889
+	Avg past 100 score: 31.273532150908075
+Episode: 82
+	Score: 55.32068553566934
+	Avg past 100 score: 31.38932530760272
+Episode: 83
+	Score: 9.786623740060762
+	Avg past 100 score: 31.677654948904728
+Episode: 84
+	Score: 79.16572510992934
+	Avg past 100 score: 31.417047434513727
+Episode: 85
+	Score: 36.62441229589537
+	Avg past 100 score: 31.978796583636267
+Episode: 86
+	Score: 11.856430666521192
+	Avg past 100 score: 32.03281537098812
+Episode: 87
+	Score: 51.13470951433886
+	Avg past 100 score: 31.800902903120683
+Episode: 88
+	Score: 75.60330074970527
+	Avg past 100 score: 32.02060525097542
+Episode: 89
+	Score: 28.105231819928363
+	Avg past 100 score: 32.51029845882632
+Episode: 90
+	Score: 56.46019426546991
+	Avg past 100 score: 32.46135327394968
+Episode: 91
+	Score: 30.587394456040453
+	Avg past 100 score: 32.725076801329024
+Episode: 92
+	Score: 42.02801716666331
+	Avg past 100 score: 32.701841123662845
+Episode: 93
+	Score: 12.74078490022062
+	Avg past 100 score: 32.8021225864908
+Episode: 94
+	Score: 64.43008702557367
+	Avg past 100 score: 32.58870410046665
+Episode: 95
+	Score: 34.997081751257866
+	Avg past 100 score: 32.923876552309885
+Episode: 96
+	Score: 39.48884955103593
+	Avg past 100 score: 32.94547243979893
+Episode: 97
+	Score: 33.32833163761958
+	Avg past 100 score: 33.012929935791064
+Episode: 98
+	Score: 27.35548903640699
+	Avg past 100 score: 33.016148320503596
+Episode: 99
+	Score: 19.99609685831026
+	Avg past 100 score: 32.95896994389656
+Episode: 100
+	Score: 29.703853116667066
+	Avg past 100 score: 32.8293412130407
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 101
+	Score: 29.983259869146753
+	Avg past 100 score: 32.60295495786752
+Episode: 102
+	Score: 36.30883698504078
+	Avg past 100 score: 32.702147547271245
+Episode: 103
+	Score: 37.77824143227191
+	Avg past 100 score: 32.850052281836184
+Episode: 104
+	Score: 31.790344345129345
+	Avg past 100 score: 33.02399061321794
+Episode: 105
+	Score: 38.76380586522548
+	Avg past 100 score: 32.84870663017209
+Episode: 106
+	Score: 39.86275657943702
+	Avg past 100 score: 33.02872570001355
+Episode: 107
+	Score: 8.481485457582908
+	Avg past 100 score: 32.4938026592517
+Episode: 108
+	Score: 43.63571150804108
+	Avg past 100 score: 32.190543840452236
+Episode: 109
+	Score: 25.335194189101458
+	Avg past 100 score: 32.34792264841036
+Episode: 110
+	Score: 15.43383700298992
+	Avg past 100 score: 32.22052834598141
+Episode: 111
+	Score: 26.045334976431068
+	Avg past 100 score: 32.13871678914033
+Episode: 112
+	Score: 36.68146055259487
+	Avg past 100 score: 32.02413030406053
+Episode: 113
+	Score: 16.244432023260742
+	Avg past 100 score: 31.897240616133253
+Episode: 114
+	Score: 60.83453837341882
+	Avg past 100 score: 31.495271411032405
+Episode: 115
+	Score: 29.398481581106104
+	Avg past 100 score: 31.882892990385084
+Episode: 116
+	Score: 45.46719321155583
+	Avg past 100 score: 31.407359243277618
+Episode: 117
+	Score: 32.710249968973756
+	Avg past 100 score: 31.644792676075006
+Episode: 118
+	Score: 45.56112685164607
+	Avg past 100 score: 31.609930319499632
+Episode: 119
+	Score: 12.175590247762477
+	Avg past 100 score: 31.721038575144213
+Episode: 120
+	Score: 47.502234402408995
+	Avg past 100 score: 31.554122360527924
+Episode: 121
+	Score: 23.163889262486588
+	Avg past 100 score: 31.622465217438766
+Episode: 122
+	Score: 37.431668736823745
+	Avg past 100 score: 31.30365660503014
+Episode: 123
+	Score: 32.108600486577906
+	Avg past 100 score: 31.561590456072278
+Episode: 124
+	Score: 25.676286933435637
+	Avg past 100 score: 31.54799393858713
+Episode: 125
+	Score: 30.169511606789797
+	Avg past 100 score: 31.48470237210176
+Episode: 126
+	Score: 55.81554178580304
+	Avg past 100 score: 31.439280767142296
+Episode: 127
+	Score: 45.23695807620376
+	Avg past 100 score: 31.516489707096007
+Episode: 128
+	Score: 22.179164789320733
+	Avg past 100 score: 31.813037200494282
+Episode: 129
+	Score: 26.278487758118317
+	Avg past 100 score: 31.73773208054195
+Episode: 130
+	Score: 31.50418545864523
+	Avg past 100 score: 31.60824511074281
+Episode: 131
+	Score: 12.05980086529797
+	Avg past 100 score: 31.61172895574847
+Episode: 132
+	Score: 32.04788168333471
+	Avg past 100 score: 31.49561239158809
+Episode: 133
+	Score: 30.27566264391962
+	Avg past 100 score: 31.669173376113918
+Episode: 134
+	Score: 60.417702259580516
+	Avg past 100 score: 31.68968616908998
+Episode: 135
+	Score: 28.20247987852516
+	Avg past 100 score: 32.19178214163424
+Episode: 136
+	Score: 62.547610771418974
+	Avg past 100 score: 32.32612643113688
+Episode: 137
+	Score: 27.59831143043596
+	Avg past 100 score: 32.7284861072609
+Episode: 138
+	Score: 31.624347252728917
+	Avg past 100 score: 32.68592269675034
+Episode: 139
+	Score: 30.734686510722064
+	Avg past 100 score: 32.75316963841662
+Episode: 140
+	Score: 25.74533966513858
+	Avg past 100 score: 32.49896652727758
+Episode: 141
+	Score: 28.164782362736084
+	Avg past 100 score: 32.54639747802369
+Episode: 142
+	Score: 42.40191708259623
+	Avg past 100 score: 32.53973422120357
+Episode: 143
+	Score: 32.209124972832136
+	Avg past 100 score: 32.80848844282699
+Episode: 144
+	Score: 41.8684092730453
+	Avg past 100 score: 32.88246784411699
+Episode: 145
+	Score: 47.68951417988336
+	Avg past 100 score: 33.19578171184699
+Episode: 146
+	Score: 35.62222960326737
+	Avg past 100 score: 33.3967435286701
+Episode: 147
+	Score: 31.403603589966554
+	Avg past 100 score: 33.59353763861042
+Episode: 148
+	Score: 7.681712108579549
+	Avg past 100 score: 33.72652139203803
+Episode: 149
+	Score: 37.457641974091544
+	Avg past 100 score: 33.58657103692785
+Episode: 150
+	Score: 37.09222116490657
+	Avg past 100 score: 33.46307309819227
+Episode: 151
+	Score: 48.65694318605926
+	Avg past 100 score: 33.554175733358456
+Episode: 152
+	Score: 27.869206476533275
+	Avg past 100 score: 33.66566873325004
+Episode: 153
+	Score: 33.4460591306402
+	Avg past 100 score: 33.59892523907348
+Episode: 154
+	Score: 6.885155638658696
+	Avg past 100 score: 33.561971378504744
+Episode: 155
+	Score: 42.91878738068044
+	Avg past 100 score: 33.45478564305263
+Episode: 156
+	Score: 36.2293100482361
+	Avg past 100 score: 33.64515969970464
+Episode: 157
+	Score: 30.290986709127363
+	Avg past 100 score: 33.42203195700877
+Episode: 158
+	Score: 28.031637511808764
+	Avg past 100 score: 33.55094892052711
+Episode: 159
+	Score: 95.20295619050218
+	Avg past 100 score: 33.743400368042266
+Episode: 160
+	Score: 61.514482000715674
+	Avg past 100 score: 34.179933735111376
+Episode: 161
+	Score: 68.40818941387857
+	Avg past 100 score: 34.6282394062714
+Episode: 162
+	Score: 21.417022432708603
+	Avg past 100 score: 35.20015104363937
+Episode: 163
+	Score: 35.095264243131325
+	Avg past 100 score: 35.09250290249993
+Episode: 164
+	Score: 35.66803286131472
+	Avg past 100 score: 34.94621382408532
+Episode: 165
+	Score: 16.24637820258398
+	Avg past 100 score: 34.92044633741501
+Episode: 166
+	Score: 26.363360559059814
+	Avg past 100 score: 34.97535995672044
+Episode: 167
+	Score: 23.160496667831794
+	Avg past 100 score: 35.06165065950809
+Episode: 168
+	Score: 50.77369339654054
+	Avg past 100 score: 35.02924141811388
+Episode: 169
+	Score: 10.260755956680939
+	Avg past 100 score: 35.38582431944521
+Episode: 170
+	Score: 35.27134374427525
+	Avg past 100 score: 35.329681983748564
+Episode: 171
+	Score: 7.276404486291787
+	Avg past 100 score: 35.339067522283244
+Episode: 172
+	Score: 40.2436951172792
+	Avg past 100 score: 35.07149731500213
+Episode: 173
+	Score: 25.868952006948266
+	Avg past 100 score: 35.03007705815698
+Episode: 174
+	Score: 31.67080347214571
+	Avg past 100 score: 34.82420881431095
+Episode: 175
+	Score: 31.06124297872356
+	Avg past 100 score: 34.731656974375944
+Episode: 176
+	Score: 39.17181796091609
+	Avg past 100 score: 34.85074618057697
+Episode: 177
+	Score: 105.71347949471831
+	Avg past 100 score: 35.16218097714612
+Episode: 178
+	Score: 59.982559310145334
+	Avg past 100 score: 36.03773539103345
+Episode: 179
+	Score: 33.998113692738116
+	Avg past 100 score: 35.965453845443605
+Episode: 180
+	Score: 23.038076362022277
+	Avg past 100 score: 35.983792780027194
+Episode: 181
+	Score: 18.587796249511563
+	Avg past 100 score: 35.83620466420417
+Episode: 182
+	Score: 42.49676898164168
+	Avg past 100 score: 35.61439691670059
+Episode: 183
+	Score: 18.0016098601151
+	Avg past 100 score: 35.48615775116032
+Episode: 184
+	Score: 18.71297023635865
+	Avg past 100 score: 35.56830761236086
+Episode: 185
+	Score: 41.38287602229553
+	Avg past 100 score: 34.96378006362515
+Episode: 186
+	Score: 25.11171738168394
+	Avg past 100 score: 35.011364700889146
+Episode: 187
+	Score: 46.85312148928642
+	Avg past 100 score: 35.14391756804078
+Episode: 188
+	Score: 30.66708852998404
+	Avg past 100 score: 35.101101687790255
+Episode: 189
+	Score: 58.16075426475567
+	Avg past 100 score: 34.65173956559304
+Episode: 190
+	Score: 29.347141574729573
+	Avg past 100 score: 34.952294790041314
+Episode: 191
+	Score: 38.27838838506829
+	Avg past 100 score: 34.681164263133915
+Episode: 192
+	Score: 38.74499671042643
+	Avg past 100 score: 34.7580742024242
+Episode: 193
+	Score: 5.404718263984912
+	Avg past 100 score: 34.725243997861824
+Episode: 194
+	Score: 75.81944501510056
+	Avg past 100 score: 34.65188333149946
+Episode: 195
+	Score: 83.3048935331065
+	Avg past 100 score: 34.76577691139473
+Episode: 196
+	Score: 11.811244709586557
+	Avg past 100 score: 35.24885502921322
+Episode: 197
+	Score: 34.5655908734453
+	Avg past 100 score: 34.97207898079873
+Episode: 198
+	Score: 18.139105465622958
+	Avg past 100 score: 34.98445157315698
+Episode: 199
+	Score: 21.97071972480891
+	Avg past 100 score: 34.892287737449145
+Episode: 200
+	Score: 19.86846790280701
+	Avg past 100 score: 34.91203396611413
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 201
+	Score: 31.513222731395885
+	Avg past 100 score: 34.81368011397553
+Episode: 202
+	Score: 27.180793216705997
+	Avg past 100 score: 34.828979742598015
+Episode: 203
+	Score: 6.987044268287718
+	Avg past 100 score: 34.73769930491468
+Episode: 204
+	Score: 38.68475984523751
+	Avg past 100 score: 34.42978733327483
+Episode: 205
+	Score: 7.558698388239877
+	Avg past 100 score: 34.498731488275915
+Episode: 206
+	Score: 55.98171675653958
+	Avg past 100 score: 34.18668041350606
+Episode: 207
+	Score: 51.344000718556345
+	Avg past 100 score: 34.34787001527709
+Episode: 208
+	Score: 19.977104614488777
+	Avg past 100 score: 34.776495167886814
+Episode: 209
+	Score: 10.764408998445354
+	Avg past 100 score: 34.5399090989513
+Episode: 210
+	Score: 8.832157508808782
+	Avg past 100 score: 34.394201247044734
+Episode: 211
+	Score: 14.350317067043347
+	Avg past 100 score: 34.32818445210293
+Episode: 212
+	Score: 37.19599946588278
+	Avg past 100 score: 34.21123427300905
+Episode: 213
+	Score: 45.67599166260861
+	Avg past 100 score: 34.216379662141925
+Episode: 214
+	Score: 20.46130391286517
+	Avg past 100 score: 34.51069525853541
+Episode: 215
+	Score: 42.182329093529425
+	Avg past 100 score: 34.10696291392987
+Episode: 216
+	Score: 16.367198554375634
+	Avg past 100 score: 34.2348013890541
+Episode: 217
+	Score: 4.919651867821813
+	Avg past 100 score: 33.9438014424823
+Episode: 218
+	Score: 31.125561899251565
+	Avg past 100 score: 33.665895461470775
+Episode: 219
+	Score: 14.093180276707491
+	Avg past 100 score: 33.52153981194683
+Episode: 220
+	Score: 67.95054053836928
+	Avg past 100 score: 33.540715712236285
+Episode: 221
+	Score: 9.304217566651376
+	Avg past 100 score: 33.74519877359589
+Episode: 222
+	Score: 17.26891201230782
+	Avg past 100 score: 33.606602056637534
+Episode: 223
+	Score: 15.567941917106513
+	Avg past 100 score: 33.40497448939238
+Episode: 224
+	Score: 49.69129645113241
+	Avg past 100 score: 33.239567903697655
+Episode: 225
+	Score: 68.90348515991884
+	Avg past 100 score: 33.479717998874634
+Episode: 226
+	Score: 29.443860617804937
+	Avg past 100 score: 33.86705773440592
+Episode: 227
+	Score: 65.20498944717373
+	Avg past 100 score: 33.60334092272594
+Episode: 228
+	Score: 5.615646303970028
+	Avg past 100 score: 33.80302123643564
+Episode: 229
+	Score: 19.50119352222166
+	Avg past 100 score: 33.63738605158213
+Episode: 230
+	Score: 15.361339311369441
+	Avg past 100 score: 33.56961310922317
+Episode: 231
+	Score: 77.84212784138931
+	Avg past 100 score: 33.40818464775041
+Episode: 232
+	Score: 23.859370259144768
+	Avg past 100 score: 34.06600791751132
+Episode: 233
+	Score: 43.52283879107033
+	Avg past 100 score: 33.98412280326942
+Episode: 234
+	Score: 3.576627991670235
+	Avg past 100 score: 34.11659456474093
+Episode: 235
+	Score: 23.70240511120805
+	Avg past 100 score: 33.54818382206182
+Episode: 236
+	Score: 36.3179758804935
+	Avg past 100 score: 33.50318307438865
+Episode: 237
+	Score: 13.604741110043093
+	Avg past 100 score: 33.24088672547939
+Episode: 238
+	Score: 58.27442444257694
+	Avg past 100 score: 33.100951022275474
+Episode: 239
+	Score: 29.84170718901705
+	Avg past 100 score: 33.36745179417395
+Episode: 240
+	Score: 46.12031679922206
+	Avg past 100 score: 33.3585220009569
+Episode: 241
+	Score: 53.891204788286075
+	Avg past 100 score: 33.562271772297734
+Episode: 242
+	Score: 31.215261946792122
+	Avg past 100 score: 33.81953599655324
+Episode: 243
+	Score: 20.17813024208458
+	Avg past 100 score: 33.70766944519519
+Episode: 244
+	Score: 18.005785601065405
+	Avg past 100 score: 33.58735949788772
+Episode: 245
+	Score: 35.01719884659078
+	Avg past 100 score: 33.348733261167915
+Episode: 246
+	Score: 21.73008087218146
+	Avg past 100 score: 33.222010107835
+Episode: 247
+	Score: 24.59075391648168
+	Avg past 100 score: 33.08308862052413
+Episode: 248
+	Score: 11.17572102534839
+	Avg past 100 score: 33.014960123789294
+Episode: 249
+	Score: 22.727719431489028
+	Avg past 100 score: 33.049900212956985
+Episode: 250
+	Score: 21.28440306475386
+	Avg past 100 score: 32.90260098753095
+Episode: 251
+	Score: 28.212077976627775
+	Avg past 100 score: 32.744522806529424
+Episode: 252
+	Score: 110.25935440137981
+	Avg past 100 score: 32.5400741544351
+Episode: 253
+	Score: 43.27496623908253
+	Avg past 100 score: 33.36397563368357
+Episode: 254
+	Score: 8.060804630714383
+	Avg past 100 score: 33.462264704767996
+Episode: 255
+	Score: 82.26834959566428
+	Avg past 100 score: 33.474021194688554
+Episode: 256
+	Score: 18.481164675502278
+	Avg past 100 score: 33.86751681683839
+Episode: 257
+	Score: 20.75996793535623
+	Avg past 100 score: 33.69003536311106
+Episode: 258
+	Score: 36.253449197879725
+	Avg past 100 score: 33.59472517537334
+Episode: 259
+	Score: 28.313596975820307
+	Avg past 100 score: 33.67694329223406
+Episode: 260
+	Score: 24.76853747570633
+	Avg past 100 score: 33.008049700087234
+Episode: 261
+	Score: 64.26359420889904
+	Avg past 100 score: 32.640590254837136
+Episode: 262
+	Score: 58.50290764076636
+	Avg past 100 score: 32.599144302787344
+Episode: 263
+	Score: 39.07416921193628
+	Avg past 100 score: 32.970003154867925
+Episode: 264
+	Score: 23.47354583526877
+	Avg past 100 score: 33.00979220455597
+Episode: 265
+	Score: 21.176536133174192
+	Avg past 100 score: 32.887847334295515
+Episode: 266
+	Score: 49.334239206276834
+	Avg past 100 score: 32.93714891360141
+Episode: 267
+	Score: 78.18646289205013
+	Avg past 100 score: 33.166857700073585
+Episode: 268
+	Score: 42.911023468287176
+	Avg past 100 score: 33.71711736231577
+Episode: 269
+	Score: 89.54786990608346
+	Avg past 100 score: 33.63849066303324
+Episode: 270
+	Score: 64.72632142943753
+	Avg past 100 score: 34.43136180252726
+Episode: 271
+	Score: 11.522486199328508
+	Avg past 100 score: 34.72591157937889
+Episode: 272
+	Score: 49.38212665263565
+	Avg past 100 score: 34.76837239650925
+Episode: 273
+	Score: 29.28961174511774
+	Avg past 100 score: 34.85975671186281
+Episode: 274
+	Score: 52.551657418508775
+	Avg past 100 score: 34.89396330924451
+Episode: 275
+	Score: 58.47700185184791
+	Avg past 100 score: 35.10277184870814
+Episode: 276
+	Score: 19.35552938197824
+	Avg past 100 score: 35.37692943743939
+Episode: 277
+	Score: 35.1828253152357
+	Avg past 100 score: 35.17876655165001
+Episode: 278
+	Score: 14.206922744993458
+	Avg past 100 score: 34.47346000985519
+Episode: 279
+	Score: 35.76549583588811
+	Avg past 100 score: 34.01570364420366
+Episode: 280
+	Score: 40.458994907919646
+	Avg past 100 score: 34.033377465635155
+Episode: 281
+	Score: 58.66341707618398
+	Avg past 100 score: 34.20758665109413
+Episode: 282
+	Score: 58.0315667671067
+	Avg past 100 score: 34.60834285936085
+Episode: 283
+	Score: 54.077956998297424
+	Avg past 100 score: 34.763690837215506
+Episode: 284
+	Score: 13.687800262885336
+	Avg past 100 score: 35.12445430859733
+Episode: 285
+	Score: 58.54043579330159
+	Avg past 100 score: 35.0742026088626
+Episode: 286
+	Score: 73.08119346938011
+	Avg past 100 score: 35.24577820657266
+Episode: 287
+	Score: 70.01327220037243
+	Avg past 100 score: 35.725472967449626
+Episode: 288
+	Score: 86.32410650135188
+	Avg past 100 score: 35.95707447456048
+Episode: 289
+	Score: 28.80151488373733
+	Avg past 100 score: 36.51364465427416
+Episode: 290
+	Score: 33.82727161134508
+	Avg past 100 score: 36.220052260463966
+Episode: 291
+	Score: 7.75261481444944
+	Avg past 100 score: 36.264853560830126
+Episode: 292
+	Score: 48.83982297570699
+	Avg past 100 score: 35.959595825123934
+Episode: 293
+	Score: 9.102111156013878
+	Avg past 100 score: 36.06054408777675
+Episode: 294
+	Score: 10.263646178878844
+	Avg past 100 score: 36.09751801669704
+Episode: 295
+	Score: 42.134183835830875
+	Avg past 100 score: 35.44196002833482
+Episode: 296
+	Score: 47.097994235301904
+	Avg past 100 score: 35.030252931362064
+Episode: 297
+	Score: 29.504201986911625
+	Avg past 100 score: 35.383120426619215
+Episode: 298
+	Score: 35.093057998286724
+	Avg past 100 score: 35.33250653775387
+Episode: 299
+	Score: 64.6578966104002
+	Avg past 100 score: 35.50204606308051
+Episode: 300
+	Score: 26.947774182200757
+	Avg past 100 score: 35.92891783193643
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 301
+	Score: 61.43314317800103
+	Avg past 100 score: 35.99971089473037
+Episode: 302
+	Score: 41.10387550967492
+	Avg past 100 score: 36.29891009919642
+Episode: 303
+	Score: 44.95012298124758
+	Avg past 100 score: 36.43814092212611
+Episode: 304
+	Score: 24.745702114210214
+	Avg past 100 score: 36.8177717092557
+Episode: 305
+	Score: 72.83348627140832
+	Avg past 100 score: 36.678381131945436
+Episode: 306
+	Score: 64.58482026088642
+	Avg past 100 score: 37.33112901077711
+Episode: 307
+	Score: 46.53376912071624
+	Avg past 100 score: 37.41716004582058
+Episode: 308
+	Score: 19.042305228046395
+	Avg past 100 score: 37.36905772984218
+Episode: 309
+	Score: 53.325521792877794
+	Avg past 100 score: 37.35970973597775
+Episode: 310
+	Score: 36.2492032089186
+	Avg past 100 score: 37.78532086392208
+Episode: 311
+	Score: 15.117085341364144
+	Avg past 100 score: 38.05949132092317
+Episode: 312
+	Score: 59.788088734515675
+	Avg past 100 score: 38.06715900366638
+Episode: 313
+	Score: 54.43921960915691
+	Avg past 100 score: 38.29307989635272
+Episode: 314
+	Score: 11.580462681976233
+	Avg past 100 score: 38.38071217581821
+Episode: 315
+	Score: 17.603134739212685
+	Avg past 100 score: 38.29190376350932
+Episode: 316
+	Score: 55.93835437873549
+	Avg past 100 score: 38.04611181996616
+Episode: 317
+	Score: 15.647617613388734
+	Avg past 100 score: 38.44182337820974
+Episode: 318
+	Score: 31.45045773456381
+	Avg past 100 score: 38.54910303566542
+Episode: 319
+	Score: 64.55787847529758
+	Avg past 100 score: 38.55235199401854
+Episode: 320
+	Score: 15.740330128168516
+	Avg past 100 score: 39.05699897600444
+Episode: 321
+	Score: 9.547857448458672
+	Avg past 100 score: 38.534896871902426
+Episode: 322
+	Score: 39.30991629028524
+	Avg past 100 score: 38.5373332707205
+Episode: 323
+	Score: 40.07807397876273
+	Avg past 100 score: 38.75774331350027
+Episode: 324
+	Score: 26.718183553862296
+	Avg past 100 score: 39.00284463411684
+Episode: 325
+	Score: 39.91823093914851
+	Avg past 100 score: 38.773113505144146
+Episode: 326
+	Score: 14.024018887091767
+	Avg past 100 score: 38.48326096293644
+Episode: 327
+	Score: 67.55246922632003
+	Avg past 100 score: 38.3290625456293
+Episode: 328
+	Score: 11.440038939683953
+	Avg past 100 score: 38.352537343420764
+Episode: 329
+	Score: 27.65643025054173
+	Avg past 100 score: 38.41078126977791
+Episode: 330
+	Score: 36.90813503202729
+	Avg past 100 score: 38.4923336370611
+Episode: 331
+	Score: 44.1934020836012
+	Avg past 100 score: 38.707801594267686
+Episode: 332
+	Score: 22.788387391038917
+	Avg past 100 score: 38.3713143366898
+Episode: 333
+	Score: 75.94401226412843
+	Avg past 100 score: 38.36060450800875
+Episode: 334
+	Score: 70.04717212223277
+	Avg past 100 score: 38.68481624273932
+Episode: 335
+	Score: 15.136335527016357
+	Avg past 100 score: 39.34952168404496
+Episode: 336
+	Score: 18.183303579688072
+	Avg past 100 score: 39.26386098820305
+Episode: 337
+	Score: 53.130500696430154
+	Avg past 100 score: 39.08251426519499
+Episode: 338
+	Score: 60.08422081511129
+	Avg past 100 score: 39.47777186105886
+Episode: 339
+	Score: 52.40920708159153
+	Avg past 100 score: 39.495869824784194
+Episode: 340
+	Score: 66.75027801570567
+	Avg past 100 score: 39.72154482370994
+Episode: 341
+	Score: 13.799742081922226
+	Avg past 100 score: 39.927844435874775
+Episode: 342
+	Score: 16.1843984053703
+	Avg past 100 score: 39.52692980881114
+Episode: 343
+	Score: 22.61413215845823
+	Avg past 100 score: 39.37662117339692
+Episode: 344
+	Score: 18.848120336346753
+	Avg past 100 score: 39.40098119256065
+Episode: 345
+	Score: 30.777140490033407
+	Avg past 100 score: 39.40940453991347
+Episode: 346
+	Score: 38.42275870066475
+	Avg past 100 score: 39.36700395634789
+Episode: 347
+	Score: 30.446991961957387
+	Avg past 100 score: 39.533930734632726
+Episode: 348
+	Score: 15.786340389231391
+	Avg past 100 score: 39.59249311508748
+Episode: 349
+	Score: 49.69103912746702
+	Avg past 100 score: 39.63859930872632
+Episode: 350
+	Score: 6.341706303202294
+	Avg past 100 score: 39.908232505686094
+Episode: 351
+	Score: 59.87134077205237
+	Avg past 100 score: 39.75880553807058
+Episode: 352
+	Score: 108.30474212265105
+	Avg past 100 score: 40.075398166024826
+Episode: 353
+	Score: 5.589451614936644
+	Avg past 100 score: 40.05585204323754
+Episode: 354
+	Score: 8.198693004182793
+	Avg past 100 score: 39.67899689699608
+Episode: 355
+	Score: 25.685347233983602
+	Avg past 100 score: 39.68037578073076
+Episode: 356
+	Score: 24.854025571353063
+	Avg past 100 score: 39.11454575711395
+Episode: 357
+	Score: 18.923446443820875
+	Avg past 100 score: 39.17827436607246
+Episode: 358
+	Score: 34.65157823330214
+	Avg past 100 score: 39.1599091511571
+Episode: 359
+	Score: 19.22957710540769
+	Avg past 100 score: 39.14389044151133
+Episode: 360
+	Score: 13.911833877590572
+	Avg past 100 score: 39.05305024280721
+Episode: 361
+	Score: 20.23632491435009
+	Avg past 100 score: 38.94448320682605
+Episode: 362
+	Score: 52.10242514879527
+	Avg past 100 score: 38.504210513880565
+Episode: 363
+	Score: 24.266441298310053
+	Avg past 100 score: 38.44020568896085
+Episode: 364
+	Score: 10.902920801192522
+	Avg past 100 score: 38.292128409824585
+Episode: 365
+	Score: 10.280765713277189
+	Avg past 100 score: 38.16642215948382
+Episode: 366
+	Score: 6.962446920489045
+	Avg past 100 score: 38.05746445528485
+Episode: 367
+	Score: 21.027715249833733
+	Avg past 100 score: 37.63374653242697
+Episode: 368
+	Score: 46.04591234722599
+	Avg past 100 score: 37.062159056004816
+Episode: 369
+	Score: 38.88289536525157
+	Avg past 100 score: 37.0935079447942
+Episode: 370
+	Score: 51.14897015898234
+	Avg past 100 score: 36.58685819938589
+Episode: 371
+	Score: 45.08652880686251
+	Avg past 100 score: 36.45108468668133
+Episode: 372
+	Score: 8.172349422662096
+	Avg past 100 score: 36.78672511275667
+Episode: 373
+	Score: 72.05629089017485
+	Avg past 100 score: 36.37462734045693
+Episode: 374
+	Score: 38.40771193417127
+	Avg past 100 score: 36.8022941319075
+Episode: 375
+	Score: 54.5590834774352
+	Avg past 100 score: 36.66085467706413
+Episode: 376
+	Score: 13.425014474662019
+	Avg past 100 score: 36.621675493320005
+Episode: 377
+	Score: 36.84538383735345
+	Avg past 100 score: 36.562370344246844
+Episode: 378
+	Score: 17.672954987247724
+	Avg past 100 score: 36.57899592946802
+Episode: 379
+	Score: 11.757500972768124
+	Avg past 100 score: 36.61365625189056
+Episode: 380
+	Score: 65.77055911584334
+	Avg past 100 score: 36.37357630325936
+Episode: 381
+	Score: 56.826337992065504
+	Avg past 100 score: 36.6266919453386
+Episode: 382
+	Score: 24.769577964463025
+	Avg past 100 score: 36.60832115449741
+Episode: 383
+	Score: 14.421072506938467
+	Avg past 100 score: 36.275701266470975
+Episode: 384
+	Score: 24.70141140672124
+	Avg past 100 score: 35.87913242155739
+Episode: 385
+	Score: 40.972043690864346
+	Avg past 100 score: 35.989268532995744
+Episode: 386
+	Score: 36.071225331418894
+	Avg past 100 score: 35.81358461197137
+Episode: 387
+	Score: 5.853745160920716
+	Avg past 100 score: 35.443484930591765
+Episode: 388
+	Score: 40.258264167445965
+	Avg past 100 score: 34.80188966019725
+Episode: 389
+	Score: 56.05324182735587
+	Avg past 100 score: 34.34123123685819
+Episode: 390
+	Score: 33.34851177062162
+	Avg past 100 score: 34.61374850629437
+Episode: 391
+	Score: 12.342031526336955
+	Avg past 100 score: 34.60896090788714
+Episode: 392
+	Score: 44.89006054807794
+	Avg past 100 score: 34.65485507500601
+Episode: 393
+	Score: 47.1649442263879
+	Avg past 100 score: 34.61535745072973
+Episode: 394
+	Score: 53.94487075422976
+	Avg past 100 score: 34.99598578143346
+Episode: 395
+	Score: 34.539204055697404
+	Avg past 100 score: 35.432798027186976
+Episode: 396
+	Score: 39.478130563627914
+	Avg past 100 score: 35.35684822938563
+Episode: 397
+	Score: 61.21284671949054
+	Avg past 100 score: 35.2806495926689
+Episode: 398
+	Score: 39.538752546703265
+	Avg past 100 score: 35.59773603999469
+Episode: 399
+	Score: 95.62718640949409
+	Avg past 100 score: 35.64219298547886
+Episode: 400
+	Score: 76.37756503483453
+	Avg past 100 score: 35.95188588346979
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 401
+	Score: 8.301635424352506
+	Avg past 100 score: 36.44618379199613
+Episode: 402
+	Score: 42.4670183229345
+	Avg past 100 score: 35.91486871445964
+Episode: 403
+	Score: 51.83460598946973
+	Avg past 100 score: 35.928500142592235
+Episode: 404
+	Score: 79.83555590764576
+	Avg past 100 score: 35.997344972674455
+Episode: 405
+	Score: 33.81360198675909
+	Avg past 100 score: 36.54824351060881
+Episode: 406
+	Score: 45.526133959689595
+	Avg past 100 score: 36.158044667762326
+Episode: 407
+	Score: 50.31892168953676
+	Avg past 100 score: 35.96745780475035
+Episode: 408
+	Score: 8.152066556398164
+	Avg past 100 score: 36.00530933043856
+Episode: 409
+	Score: 21.96982492641969
+	Avg past 100 score: 35.89640694372207
+Episode: 410
+	Score: 96.30295018296137
+	Avg past 100 score: 35.58284997505749
+Episode: 411
+	Score: 18.572986338287592
+	Avg past 100 score: 36.18338744479792
+Episode: 412
+	Score: 62.6539773709056
+	Avg past 100 score: 36.21794645476716
+Episode: 413
+	Score: 14.579518852543764
+	Avg past 100 score: 36.24660534113106
+Episode: 414
+	Score: 42.61791663464497
+	Avg past 100 score: 35.84800833356493
+Episode: 415
+	Score: 53.472243619426564
+	Avg past 100 score: 36.15838287309161
+Episode: 416
+	Score: 30.1033626540183
+	Avg past 100 score: 36.51707396189376
+Episode: 417
+	Score: 39.62610421437686
+	Avg past 100 score: 36.258724044646584
+Episode: 418
+	Score: 75.38435155094008
+	Avg past 100 score: 36.49850891065646
+Episode: 419
+	Score: 79.92557417872278
+	Avg past 100 score: 36.937847848820226
+Episode: 420
+	Score: 10.582527137276799
+	Avg past 100 score: 37.09152480585448
+Episode: 421
+	Score: 51.18104127455842
+	Avg past 100 score: 37.039946775945566
+Episode: 422
+	Score: 49.954776044088334
+	Avg past 100 score: 37.45627861420656
+Episode: 423
+	Score: 10.375709148123859
+	Avg past 100 score: 37.562727211744594
+Episode: 424
+	Score: 11.929749869741501
+	Avg past 100 score: 37.2657035634382
+Episode: 425
+	Score: 41.90392990308731
+	Avg past 100 score: 37.11781922659699
+Episode: 426
+	Score: 41.82628526420078
+	Avg past 100 score: 37.13767621623638
+Episode: 427
+	Score: 33.431360976347186
+	Avg past 100 score: 37.41569888000747
+Episode: 428
+	Score: 29.094707847064868
+	Avg past 100 score: 37.074487797507736
+Episode: 429
+	Score: 30.038679276254364
+	Avg past 100 score: 37.251034486581545
+Episode: 430
+	Score: 6.846109404122796
+	Avg past 100 score: 37.27485697683867
+Episode: 431
+	Score: 18.39822435717691
+	Avg past 100 score: 36.97423672055963
+Episode: 432
+	Score: 71.73239925122733
+	Avg past 100 score: 36.716284943295385
+Episode: 433
+	Score: 38.227097724733696
+	Avg past 100 score: 37.20572506189727
+Episode: 434
+	Score: 14.12099658795209
+	Avg past 100 score: 36.82855591650332
+Episode: 435
+	Score: 85.95192639360374
+	Avg past 100 score: 36.269294161160516
+Episode: 436
+	Score: 30.73455415750769
+	Avg past 100 score: 36.97745006982639
+Episode: 437
+	Score: 79.02240486392243
+	Avg past 100 score: 37.102962575604586
+Episode: 438
+	Score: 61.706671923229635
+	Avg past 100 score: 37.36188161727951
+Episode: 439
+	Score: 13.263645049777221
+	Avg past 100 score: 37.37810612836069
+Episode: 440
+	Score: 61.76472811151126
+	Avg past 100 score: 36.98665050804255
+Episode: 441
+	Score: 99.42825772338121
+	Avg past 100 score: 36.936795009000605
+Episode: 442
+	Score: 10.038546775552357
+	Avg past 100 score: 37.7930801654152
+Episode: 443
+	Score: 16.659063883633774
+	Avg past 100 score: 37.73162164911702
+Episode: 444
+	Score: 8.129436193923043
+	Avg past 100 score: 37.67207096636877
+Episode: 445
+	Score: 25.983342079784382
+	Avg past 100 score: 37.564884124944534
+Episode: 446
+	Score: 16.00083841476589
+	Avg past 100 score: 37.516946140842045
+Episode: 447
+	Score: 67.58646959997714
+	Avg past 100 score: 37.292726937983055
+Episode: 448
+	Score: 72.45334369282828
+	Avg past 100 score: 37.664121714363255
+Episode: 449
+	Score: 75.55521992475472
+	Avg past 100 score: 38.23079174739922
+Episode: 450
+	Score: 84.89326270500361
+	Avg past 100 score: 38.489433555372095
+Episode: 451
+	Score: 73.79083838402717
+	Avg past 100 score: 39.274949119390115
+Episode: 452
+	Score: 25.302534067262478
+	Avg past 100 score: 39.41414409550986
+Episode: 453
+	Score: 45.02884412997149
+	Avg past 100 score: 38.58412201495597
+Episode: 454
+	Score: 37.373827204954885
+	Avg past 100 score: 38.97851594010632
+Episode: 455
+	Score: 54.6581333764744
+	Avg past 100 score: 39.27026728211405
+Episode: 456
+	Score: 47.83731307648122
+	Avg past 100 score: 39.559995143538956
+Episode: 457
+	Score: 55.58826571719891
+	Avg past 100 score: 39.789828018590235
+Episode: 458
+	Score: 8.238901707767086
+	Avg past 100 score: 40.15647621132402
+Episode: 459
+	Score: 13.26246932618828
+	Avg past 100 score: 39.892349446068664
+Episode: 460
+	Score: 17.984575052152977
+	Avg past 100 score: 39.83267836827647
+Episode: 461
+	Score: 5.743342477235605
+	Avg past 100 score: 39.87340578002209
+Episode: 462
+	Score: 86.90187514742668
+	Avg past 100 score: 39.72847595565095
+Episode: 463
+	Score: 55.63001021488822
+	Avg past 100 score: 40.07647045563726
+Episode: 464
+	Score: 7.410159862303937
+	Avg past 100 score: 40.390106144803056
+Episode: 465
+	Score: 11.860673742199484
+	Avg past 100 score: 40.35517853541416
+Episode: 466
+	Score: 5.003733763809908
+	Avg past 100 score: 40.37097761570339
+Episode: 467
+	Score: 7.981099491240455
+	Avg past 100 score: 40.351390484136594
+Episode: 468
+	Score: 12.282137621617451
+	Avg past 100 score: 40.22092432655066
+Episode: 469
+	Score: 36.20503647092052
+	Avg past 100 score: 39.88328657929458
+Episode: 470
+	Score: 62.1927029230124
+	Avg past 100 score: 39.85650799035127
+Episode: 471
+	Score: 47.69046774400737
+	Avg past 100 score: 39.96694531799156
+Episode: 472
+	Score: 35.578133045865044
+	Avg past 100 score: 39.992984707363014
+Episode: 473
+	Score: 97.82128493983127
+	Avg past 100 score: 40.267042543595046
+Episode: 474
+	Score: 58.4841602927243
+	Avg past 100 score: 40.52469248409161
+Episode: 475
+	Score: 24.85103704581376
+	Avg past 100 score: 40.72545696767714
+Episode: 476
+	Score: 49.81876810733229
+	Avg past 100 score: 40.42837650336093
+Episode: 477
+	Score: 59.49179309361023
+	Avg past 100 score: 40.79231403968763
+Episode: 478
+	Score: 5.240332400595599
+	Avg past 100 score: 41.0187781322502
+Episode: 479
+	Score: 4.835090695203028
+	Avg past 100 score: 40.89445190638367
+Episode: 480
+	Score: 11.67112632066181
+	Avg past 100 score: 40.82522780360802
+Episode: 481
+	Score: 39.08212087100202
+	Avg past 100 score: 40.28423347565621
+Episode: 482
+	Score: 37.73140502325259
+	Avg past 100 score: 40.10679130444557
+Episode: 483
+	Score: 26.60555288487706
+	Avg past 100 score: 40.23640957503347
+Episode: 484
+	Score: 119.15453051318501
+	Avg past 100 score: 40.35825437881285
+Episode: 485
+	Score: 77.71518231703985
+	Avg past 100 score: 41.3027855698775
+Episode: 486
+	Score: 153.68990264261484
+	Avg past 100 score: 41.67021695613925
+Episode: 487
+	Score: 124.01693036260127
+	Avg past 100 score: 42.84640372925119
+Episode: 488
+	Score: 58.20858793350106
+	Avg past 100 score: 44.02803558126801
+Episode: 489
+	Score: 20.587117749223996
+	Avg past 100 score: 44.20753881892856
+Episode: 490
+	Score: 79.39361396474256
+	Avg past 100 score: 43.852877578147236
+Episode: 491
+	Score: 30.05398864578456
+	Avg past 100 score: 44.31332860008845
+Episode: 492
+	Score: 41.242686340246685
+	Avg past 100 score: 44.490448171282914
+Episode: 493
+	Score: 19.581050961151377
+	Avg past 100 score: 44.45397442920461
+Episode: 494
+	Score: 20.11849265841937
+	Avg past 100 score: 44.17813549655225
+Episode: 495
+	Score: 34.93084765911441
+	Avg past 100 score: 43.83987171559414
+Episode: 496
+	Score: 12.954087688418275
+	Avg past 100 score: 43.84378815162832
+Episode: 497
+	Score: 63.88811399863863
+	Avg past 100 score: 43.57854772287621
+Episode: 498
+	Score: 11.860443683087148
+	Avg past 100 score: 43.60530039566771
+Episode: 499
+	Score: 19.679419056427747
+	Avg past 100 score: 43.32851730703155
+Episode: 500
+	Score: 34.970842045795344
+	Avg past 100 score: 42.569039633500886
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 501
+	Score: 25.454556811050594
+	Avg past 100 score: 42.15497240361049
+Episode: 502
+	Score: 51.562913215295815
+	Avg past 100 score: 42.32650161747747
+Episode: 503
+	Score: 60.106229090131826
+	Avg past 100 score: 42.41746056640109
+Episode: 504
+	Score: 78.37889496355575
+	Avg past 100 score: 42.500176797407704
+Episode: 505
+	Score: 16.276606497608803
+	Avg past 100 score: 42.485610187966806
+Episode: 506
+	Score: 41.166750173592426
+	Avg past 100 score: 42.31024023307529
+Episode: 507
+	Score: 43.112014911031686
+	Avg past 100 score: 42.26664639521433
+Episode: 508
+	Score: 28.198782445608888
+	Avg past 100 score: 42.19457732742928
+Episode: 509
+	Score: 66.23269880080429
+	Avg past 100 score: 42.395044486321396
+Episode: 510
+	Score: 29.200299517505538
+	Avg past 100 score: 42.837673225065245
+Episode: 511
+	Score: 16.167456786656246
+	Avg past 100 score: 42.166646718410675
+Episode: 512
+	Score: 36.793243476274334
+	Avg past 100 score: 42.142591422894355
+Episode: 513
+	Score: 83.67509033175354
+	Avg past 100 score: 41.88398408394805
+Episode: 514
+	Score: 161.82869412462142
+	Avg past 100 score: 42.57493979874014
+Episode: 515
+	Score: 37.216200438836076
+	Avg past 100 score: 43.767047573639914
+Episode: 516
+	Score: 18.66163796423511
+	Avg past 100 score: 43.60448714183401
+Episode: 517
+	Score: 27.96082457044924
+	Avg past 100 score: 43.49006989493618
+Episode: 518
+	Score: 59.52775190093299
+	Avg past 100 score: 43.3734170984969
+Episode: 519
+	Score: 19.95209012942558
+	Avg past 100 score: 43.214851101996835
+Episode: 520
+	Score: 82.0443488254889
+	Avg past 100 score: 42.61511626150386
+Episode: 521
+	Score: 44.16999191848497
+	Avg past 100 score: 43.32973447838597
+Episode: 522
+	Score: 8.68936235965653
+	Avg past 100 score: 43.25962398482523
+Episode: 523
+	Score: 61.20043438791551
+	Avg past 100 score: 42.84696984798091
+Episode: 524
+	Score: 22.5270876552571
+	Avg past 100 score: 43.35521710037882
+Episode: 525
+	Score: 42.04924252138218
+	Avg past 100 score: 43.46119047823399
+Episode: 526
+	Score: 12.195073868825357
+	Avg past 100 score: 43.462643604416925
+Episode: 527
+	Score: 48.840503162196406
+	Avg past 100 score: 43.16633149046319
+Episode: 528
+	Score: 96.08462297239083
+	Avg past 100 score: 43.320422912321675
+Episode: 529
+	Score: 14.296457879583944
+	Avg past 100 score: 43.99032206357495
+Episode: 530
+	Score: 80.2082236720757
+	Avg past 100 score: 43.83289984960823
+Episode: 531
+	Score: 27.73380779974501
+	Avg past 100 score: 44.566520992287764
+Episode: 532
+	Score: 48.26346520080485
+	Avg past 100 score: 44.659876826713436
+Episode: 533
+	Score: 45.69716661656276
+	Avg past 100 score: 44.425187486209204
+Episode: 534
+	Score: 56.24535366046157
+	Avg past 100 score: 44.49988817512749
+Episode: 535
+	Score: 66.89706076165155
+	Avg past 100 score: 44.9211317458526
+Episode: 536
+	Score: 13.00439905104312
+	Avg past 100 score: 44.73058308953308
+Episode: 537
+	Score: 86.01780453713782
+	Avg past 100 score: 44.553281538468426
+Episode: 538
+	Score: 77.49197960530658
+	Avg past 100 score: 44.62323553520057
+Episode: 539
+	Score: 45.92789559650487
+	Avg past 100 score: 44.78108861202135
+Episode: 540
+	Score: 18.175077587704763
+	Avg past 100 score: 45.107731117488626
+Episode: 541
+	Score: 15.198204817081038
+	Avg past 100 score: 44.67183461225056
+Episode: 542
+	Score: 60.41051160493356
+	Avg past 100 score: 43.82953408318755
+Episode: 543
+	Score: 32.56315936076201
+	Avg past 100 score: 44.333253731481385
+Episode: 544
+	Score: 17.51797589050098
+	Avg past 100 score: 44.49229468625266
+Episode: 545
+	Score: 58.98550841508602
+	Avg past 100 score: 44.58618008321843
+Episode: 546
+	Score: 10.223531075160611
+	Avg past 100 score: 44.91620174657145
+Episode: 547
+	Score: 22.59787864322689
+	Avg past 100 score: 44.8584286731754
+Episode: 548
+	Score: 9.932714408432895
+	Avg past 100 score: 44.40854276360789
+Episode: 549
+	Score: 45.03896182538434
+	Avg past 100 score: 43.78333647076394
+Episode: 550
+	Score: 66.88518482133408
+	Avg past 100 score: 43.47817388977024
+Episode: 551
+	Score: 89.82311220340097
+	Avg past 100 score: 43.29809311093355
+Episode: 552
+	Score: 39.56942829718306
+	Avg past 100 score: 43.458415849127285
+Episode: 553
+	Score: 45.49136373502288
+	Avg past 100 score: 43.601084791426494
+Episode: 554
+	Score: 24.387253056280315
+	Avg past 100 score: 43.605709987477006
+Episode: 555
+	Score: 21.872790884353556
+	Avg past 100 score: 43.47584424599027
+Episode: 556
+	Score: 60.74376092406667
+	Avg past 100 score: 43.14799082106905
+Episode: 557
+	Score: 33.04558802531524
+	Avg past 100 score: 43.27705529954491
+Episode: 558
+	Score: 49.58911204769868
+	Avg past 100 score: 43.05162852262607
+Episode: 559
+	Score: 15.988720055669546
+	Avg past 100 score: 43.46513062602539
+Episode: 560
+	Score: 35.9614186943932
+	Avg past 100 score: 43.4923931333202
+Episode: 561
+	Score: 60.727828343779855
+	Avg past 100 score: 43.6721615697426
+Episode: 562
+	Score: 8.93026993330568
+	Avg past 100 score: 44.22200642840806
+Episode: 563
+	Score: 30.16568554832007
+	Avg past 100 score: 43.44229037626684
+Episode: 564
+	Score: 68.39906608330253
+	Avg past 100 score: 43.18764712960115
+Episode: 565
+	Score: 37.16390748203479
+	Avg past 100 score: 43.79753619181113
+Episode: 566
+	Score: 39.6987656488676
+	Avg past 100 score: 44.05056852920949
+Episode: 567
+	Score: 58.001989548644886
+	Avg past 100 score: 44.39751884806006
+Episode: 568
+	Score: 6.234817517244004
+	Avg past 100 score: 44.897727748634104
+Episode: 569
+	Score: 30.93396926569669
+	Avg past 100 score: 44.837254547590376
+Episode: 570
+	Score: 23.244555954736743
+	Avg past 100 score: 44.78454387553814
+Episode: 571
+	Score: 65.03991393203086
+	Avg past 100 score: 44.39506240585538
+Episode: 572
+	Score: 8.495974753729321
+	Avg past 100 score: 44.568556867735616
+Episode: 573
+	Score: 44.077577922154546
+	Avg past 100 score: 44.29773528481426
+Episode: 574
+	Score: 48.96267183844679
+	Avg past 100 score: 43.760298214637494
+Episode: 575
+	Score: 48.15890278955074
+	Avg past 100 score: 43.665083330094724
+Episode: 576
+	Score: 80.64656064854088
+	Avg past 100 score: 43.898161987532106
+Episode: 577
+	Score: 31.384221822150394
+	Avg past 100 score: 44.20643991294418
+Episode: 578
+	Score: 42.21721694889394
+	Avg past 100 score: 43.92536420022958
+Episode: 579
+	Score: 62.77794319145719
+	Avg past 100 score: 44.29513304571256
+Episode: 580
+	Score: 63.74583691252733
+	Avg past 100 score: 44.874561570675105
+Episode: 581
+	Score: 47.67849760527977
+	Avg past 100 score: 45.39530867659376
+Episode: 582
+	Score: 37.30492937056856
+	Avg past 100 score: 45.481272443936525
+Episode: 583
+	Score: 17.484246616548102
+	Avg past 100 score: 45.47700768740969
+Episode: 584
+	Score: 78.4042998679321
+	Avg past 100 score: 45.3857946247264
+Episode: 585
+	Score: 24.725119812414047
+	Avg past 100 score: 44.97829231827389
+Episode: 586
+	Score: 73.13149837506091
+	Avg past 100 score: 44.44839169322762
+Episode: 587
+	Score: 11.95014113441787
+	Avg past 100 score: 43.642807650552086
+Episode: 588
+	Score: 14.133728513663467
+	Avg past 100 score: 42.52213975827024
+Episode: 589
+	Score: 69.97954878702083
+	Avg past 100 score: 42.08139116407187
+Episode: 590
+	Score: 24.946198877455164
+	Avg past 100 score: 42.57531547444984
+Episode: 591
+	Score: 32.5195491657677
+	Avg past 100 score: 42.03084132357696
+Episode: 592
+	Score: 49.72106730260636
+	Avg past 100 score: 42.055496928776805
+Episode: 593
+	Score: 7.164774164642122
+	Avg past 100 score: 42.1402807384004
+Episode: 594
+	Score: 54.82688100212677
+	Avg past 100 score: 42.01611797043531
+Episode: 595
+	Score: 30.837154232304208
+	Avg past 100 score: 42.36320185387237
+Episode: 596
+	Score: 40.26735258915208
+	Avg past 100 score: 42.322264919604265
+Episode: 597
+	Score: 8.479123414155435
+	Avg past 100 score: 42.595397568611595
+Episode: 598
+	Score: 46.36332472481512
+	Avg past 100 score: 42.041307662766776
+Episode: 599
+	Score: 50.551138046874925
+	Avg past 100 score: 42.38633647318406
+Episode: 600
+	Score: 98.06080528805879
+	Avg past 100 score: 42.69505366308854
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 601
+	Score: 75.68490590646185
+	Avg past 100 score: 43.32595329551117
+Episode: 602
+	Score: 12.706947571936658
+	Avg past 100 score: 43.82825678646528
+Episode: 603
+	Score: 57.72300389307465
+	Avg past 100 score: 43.43969713003168
+Episode: 604
+	Score: 44.403665655207874
+	Avg past 100 score: 43.415864878061114
+Episode: 605
+	Score: 79.49186376820911
+	Avg past 100 score: 43.07611258497763
+Episode: 606
+	Score: 33.42261785675179
+	Avg past 100 score: 43.708265157683634
+Episode: 607
+	Score: 37.53654443658888
+	Avg past 100 score: 43.63082383451523
+Episode: 608
+	Score: 35.62742286429487
+	Avg past 100 score: 43.5750691297708
+Episode: 609
+	Score: 59.002517032098375
+	Avg past 100 score: 43.64935553395767
+Episode: 610
+	Score: 46.09931267154489
+	Avg past 100 score: 43.577053716270605
+Episode: 611
+	Score: 30.50996949422089
+	Avg past 100 score: 43.746043847810995
+Episode: 612
+	Score: 61.496365439739414
+	Avg past 100 score: 43.88946897488665
+Episode: 613
+	Score: 7.346082137474282
+	Avg past 100 score: 44.136500194521304
+Episode: 614
+	Score: 68.72939105535097
+	Avg past 100 score: 43.373210112578505
+Episode: 615
+	Score: 36.07423605092547
+	Avg past 100 score: 42.4422170818858
+Episode: 616
+	Score: 41.26372346290473
+	Avg past 100 score: 42.43079743800669
+Episode: 617
+	Score: 15.915726731637156
+	Avg past 100 score: 42.656818292993385
+Episode: 618
+	Score: 37.184663350185886
+	Avg past 100 score: 42.536367314605265
+Episode: 619
+	Score: 24.03751486793838
+	Avg past 100 score: 42.31293642909779
+Episode: 620
+	Score: 43.70497656071728
+	Avg past 100 score: 42.353790676482916
+Episode: 621
+	Score: 62.87682901805436
+	Avg past 100 score: 41.970396953835206
+Episode: 622
+	Score: 38.171043473888524
+	Avg past 100 score: 42.1574653248309
+Episode: 623
+	Score: 20.993447291241452
+	Avg past 100 score: 42.45228213597322
+Episode: 624
+	Score: 36.858719898472444
+	Avg past 100 score: 42.050212265006486
+Episode: 625
+	Score: 18.871060326187447
+	Avg past 100 score: 42.19352858743864
+Episode: 626
+	Score: 67.35702461512251
+	Avg past 100 score: 41.96174676548669
+Episode: 627
+	Score: 39.5041201599789
+	Avg past 100 score: 42.51336627294965
+Episode: 628
+	Score: 49.08739879809913
+	Avg past 100 score: 42.42000244292748
+Episode: 629
+	Score: 35.89603648563337
+	Avg past 100 score: 41.95003020118456
+Episode: 630
+	Score: 11.389359037857501
+	Avg past 100 score: 42.166025987245064
+Episode: 631
+	Score: 38.659140384502024
+	Avg past 100 score: 41.47783734090287
+Episode: 632
+	Score: 100.23615617305043
+	Avg past 100 score: 41.587090666750456
+Episode: 633
+	Score: 49.775810721880674
+	Avg past 100 score: 42.106817576472906
+Episode: 634
+	Score: 46.027620061131366
+	Avg past 100 score: 42.147604017526085
+Episode: 635
+	Score: 51.94365993671289
+	Avg past 100 score: 42.04542668153278
+Episode: 636
+	Score: 62.002115226181374
+	Avg past 100 score: 41.895892673283385
+Episode: 637
+	Score: 81.52272284251042
+	Avg past 100 score: 42.385869835034775
+Episode: 638
+	Score: 21.449652084149424
+	Avg past 100 score: 42.3409190180885
+Episode: 639
+	Score: 43.10584216141566
+	Avg past 100 score: 41.78049574287693
+Episode: 640
+	Score: 35.66967495903374
+	Avg past 100 score: 41.75227520852604
+Episode: 641
+	Score: 38.28603941636075
+	Avg past 100 score: 41.92722118223933
+Episode: 642
+	Score: 95.38152113350488
+	Avg past 100 score: 42.15809952823212
+Episode: 643
+	Score: 20.620210133154284
+	Avg past 100 score: 42.50780962351784
+Episode: 644
+	Score: 64.78888553101571
+	Avg past 100 score: 42.38838013124177
+Episode: 645
+	Score: 11.853015946309
+	Avg past 100 score: 42.86108922764691
+Episode: 646
+	Score: 48.85432513235983
+	Avg past 100 score: 42.389764302959136
+Episode: 647
+	Score: 51.60678612220693
+	Avg past 100 score: 42.776072243531125
+Episode: 648
+	Score: 89.48391480942847
+	Avg past 100 score: 43.06616131832094
+Episode: 649
+	Score: 38.768423431849264
+	Avg past 100 score: 43.86167332233089
+Episode: 650
+	Score: 22.078416426115748
+	Avg past 100 score: 43.79896793839554
+Episode: 651
+	Score: 22.958200176902622
+	Avg past 100 score: 43.35090025444336
+Episode: 652
+	Score: 30.958244221454315
+	Avg past 100 score: 42.682251134178365
+Episode: 653
+	Score: 54.50396445651792
+	Avg past 100 score: 42.596139293421075
+Episode: 654
+	Score: 43.183247089470655
+	Avg past 100 score: 42.68626530063603
+Episode: 655
+	Score: 13.086614843119277
+	Avg past 100 score: 42.874225240967924
+Episode: 656
+	Score: 45.53394917347893
+	Avg past 100 score: 42.78636348055559
+Episode: 657
+	Score: 47.512493051271036
+	Avg past 100 score: 42.63426536304971
+Episode: 658
+	Score: 26.053173700686212
+	Avg past 100 score: 42.77893441330928
+Episode: 659
+	Score: 64.69466131070459
+	Avg past 100 score: 42.54357502983914
+Episode: 660
+	Score: 24.848620508966793
+	Avg past 100 score: 43.03063444238949
+Episode: 661
+	Score: 56.6816144211281
+	Avg past 100 score: 42.91950646053523
+Episode: 662
+	Score: 29.83832485279576
+	Avg past 100 score: 42.87904432130872
+Episode: 663
+	Score: 58.57137671282343
+	Avg past 100 score: 43.08812487050363
+Episode: 664
+	Score: 13.32296155367724
+	Avg past 100 score: 43.37218178214866
+Episode: 665
+	Score: 73.28451660004531
+	Avg past 100 score: 42.8214207368524
+Episode: 666
+	Score: 30.04438116884028
+	Avg past 100 score: 43.18262682803251
+Episode: 667
+	Score: 33.80281403085048
+	Avg past 100 score: 43.086082983232224
+Episode: 668
+	Score: 11.794524462724272
+	Avg past 100 score: 42.84409122805428
+Episode: 669
+	Score: 42.079004776187816
+	Avg past 100 score: 42.899688297509094
+Episode: 670
+	Score: 10.10597636863928
+	Avg past 100 score: 43.011138652614
+Episode: 671
+	Score: 56.00581942469052
+	Avg past 100 score: 42.87975285675302
+Episode: 672
+	Score: 58.495402742092566
+	Avg past 100 score: 42.78941191167961
+Episode: 673
+	Score: 37.95758943564513
+	Avg past 100 score: 43.289406191563245
+Episode: 674
+	Score: 28.60681713918563
+	Avg past 100 score: 43.228206306698155
+Episode: 675
+	Score: 22.296027520163495
+	Avg past 100 score: 43.02464775970554
+Episode: 676
+	Score: 22.03311272481964
+	Avg past 100 score: 42.766019007011664
+Episode: 677
+	Score: 6.426906680857594
+	Avg past 100 score: 42.179884527774455
+Episode: 678
+	Score: 59.75143449507992
+	Avg past 100 score: 41.93031137636153
+Episode: 679
+	Score: 46.12048021212899
+	Avg past 100 score: 42.10565355182339
+Episode: 680
+	Score: 45.40937350800431
+	Avg past 100 score: 41.93907892203011
+Episode: 681
+	Score: 63.035113660788
+	Avg past 100 score: 41.75571428798489
+Episode: 682
+	Score: 46.37353783210909
+	Avg past 100 score: 41.90928044853997
+Episode: 683
+	Score: 35.58274401656605
+	Avg past 100 score: 41.999966533155366
+Episode: 684
+	Score: 34.212279990908094
+	Avg past 100 score: 42.18095150715554
+Episode: 685
+	Score: 52.69282167629254
+	Avg past 100 score: 41.7390313083853
+Episode: 686
+	Score: 11.238367484543812
+	Avg past 100 score: 42.01870832702409
+Episode: 687
+	Score: 62.59849429680881
+	Avg past 100 score: 41.39977701811892
+Episode: 688
+	Score: 48.18835651908408
+	Avg past 100 score: 41.906260549742825
+Episode: 689
+	Score: 56.04386910927397
+	Avg past 100 score: 42.24680682979703
+Episode: 690
+	Score: 63.85800448720426
+	Avg past 100 score: 42.10745003301957
+Episode: 691
+	Score: 88.72142535871404
+	Avg past 100 score: 42.49656808911706
+Episode: 692
+	Score: 23.973073753443625
+	Avg past 100 score: 43.05858685104653
+Episode: 693
+	Score: 41.323256637562416
+	Avg past 100 score: 42.801106915554904
+Episode: 694
+	Score: 60.231261755085825
+	Avg past 100 score: 43.14269174028411
+Episode: 695
+	Score: 65.23151330268855
+	Avg past 100 score: 43.1967355478137
+Episode: 696
+	Score: 50.972748736893244
+	Avg past 100 score: 43.54067913851755
+Episode: 697
+	Score: 66.9267347087999
+	Avg past 100 score: 43.64773309999496
+Episode: 698
+	Score: 108.37554873162031
+	Avg past 100 score: 44.2322092129414
+Episode: 699
+	Score: 69.22690663630654
+	Avg past 100 score: 44.85233145300945
+Episode: 700
+	Score: 30.10256601785394
+	Avg past 100 score: 45.03908913890376
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 701
+	Score: 54.41930703141473
+	Avg past 100 score: 44.35950674620172
+Episode: 702
+	Score: 61.152128766830586
+	Avg past 100 score: 44.14685075745125
+Episode: 703
+	Score: 110.69034608190512
+	Avg past 100 score: 44.63130256940018
+Episode: 704
+	Score: 58.51824920387431
+	Avg past 100 score: 45.16097599128848
+Episode: 705
+	Score: 67.65919214868072
+	Avg past 100 score: 45.302121826775135
+Episode: 706
+	Score: 8.68480526071719
+	Avg past 100 score: 45.18379511057986
+Episode: 707
+	Score: 98.49005180416863
+	Avg past 100 score: 44.93641698461951
+Episode: 708
+	Score: 46.115510321391575
+	Avg past 100 score: 45.54595205829531
+Episode: 709
+	Score: 74.24625432559033
+	Avg past 100 score: 45.65083293286629
+Episode: 710
+	Score: 66.91664804806085
+	Avg past 100 score: 45.803270305801206
+Episode: 711
+	Score: 18.33485589430413
+	Avg past 100 score: 46.01144365956637
+Episode: 712
+	Score: 83.30398365779017
+	Avg past 100 score: 45.8896925235672
+Episode: 713
+	Score: 78.69449574424125
+	Avg past 100 score: 46.1077687057477
+Episode: 714
+	Score: 57.46864105198022
+	Avg past 100 score: 46.821252841815365
+Episode: 715
+	Score: 30.66511075799777
+	Avg past 100 score: 46.70864534178167
+Episode: 716
+	Score: 72.1613234914839
+	Avg past 100 score: 46.654554088852386
+Episode: 717
+	Score: 33.14565479848534
+	Avg past 100 score: 46.96353008913817
+Episode: 718
+	Score: 48.248349331912
+	Avg past 100 score: 47.13582936980665
+Episode: 719
+	Score: 17.394822968635708
+	Avg past 100 score: 47.24646622962392
+Episode: 720
+	Score: 101.85463489541274
+	Avg past 100 score: 47.1800393106309
+Episode: 721
+	Score: 68.83690347166903
+	Avg past 100 score: 47.76153589397785
+Episode: 722
+	Score: 56.67403895374049
+	Avg past 100 score: 47.82113663851399
+Episode: 723
+	Score: 52.47372712863779
+	Avg past 100 score: 48.00616659331251
+Episode: 724
+	Score: 63.45335642857986
+	Avg past 100 score: 48.320969391686475
+Episode: 725
+	Score: 87.36473834777081
+	Avg past 100 score: 48.58691575698756
+Episode: 726
+	Score: 37.50408162485638
+	Avg past 100 score: 49.2718525372034
+Episode: 727
+	Score: 55.94444067759271
+	Avg past 100 score: 48.973323107300736
+Episode: 728
+	Score: 42.07961250282822
+	Avg past 100 score: 49.13772631247687
+Episode: 729
+	Score: 79.66324882304548
+	Avg past 100 score: 49.06764844952417
+Episode: 730
+	Score: 36.03270105678927
+	Avg past 100 score: 49.505320572898285
+Episode: 731
+	Score: 11.783507667566566
+	Avg past 100 score: 49.7517539930876
+Episode: 732
+	Score: 48.134254644878894
+	Avg past 100 score: 49.48299766591824
+Episode: 733
+	Score: 13.927813527936285
+	Avg past 100 score: 48.96197865063652
+Episode: 734
+	Score: 75.30498264315112
+	Avg past 100 score: 48.60349867869708
+Episode: 735
+	Score: 74.79949945075943
+	Avg past 100 score: 48.89627230451729
+Episode: 736
+	Score: 56.744424038989976
+	Avg past 100 score: 49.12483069965775
+Episode: 737
+	Score: 34.17919077453287
+	Avg past 100 score: 49.07225378778584
+Episode: 738
+	Score: 55.173237322237
+	Avg past 100 score: 48.598818467106064
+Episode: 739
+	Score: 24.22056803860786
+	Avg past 100 score: 48.93605431948693
+Episode: 740
+	Score: 54.68691957877441
+	Avg past 100 score: 48.747201578258846
+Episode: 741
+	Score: 93.99961571645156
+	Avg past 100 score: 48.93737402445625
+Episode: 742
+	Score: 69.91032809730282
+	Avg past 100 score: 49.494509787457154
+Episode: 743
+	Score: 42.89571129297837
+	Avg past 100 score: 49.23979785709515
+Episode: 744
+	Score: 45.02817282707178
+	Avg past 100 score: 49.46255286869339
+Episode: 745
+	Score: 59.21729508709076
+	Avg past 100 score: 49.26494574165395
+Episode: 746
+	Score: 48.32449580568144
+	Avg past 100 score: 49.73858853306177
+Episode: 747
+	Score: 81.34137967804618
+	Avg past 100 score: 49.733290239794975
+Episode: 748
+	Score: 55.223520358939744
+	Avg past 100 score: 50.03063617535337
+Episode: 749
+	Score: 105.63066171041942
+	Avg past 100 score: 49.688032230848485
+Episode: 750
+	Score: 59.53173231570559
+	Avg past 100 score: 50.356654613634184
+Episode: 751
+	Score: 46.33105567698789
+	Avg past 100 score: 50.731187772530085
+Episode: 752
+	Score: 26.964382834563196
+	Avg past 100 score: 50.964916327530936
+Episode: 753
+	Score: 35.601831895151086
+	Avg past 100 score: 50.92497771366202
+Episode: 754
+	Score: 56.352125621464275
+	Avg past 100 score: 50.735956388048365
+Episode: 755
+	Score: 59.119137240489096
+	Avg past 100 score: 50.86764517336829
+Episode: 756
+	Score: 62.900691106407486
+	Avg past 100 score: 51.327970397342
+Episode: 757
+	Score: 54.5982905147089
+	Avg past 100 score: 51.50163781667127
+Episode: 758
+	Score: 23.046128250404518
+	Avg past 100 score: 51.572495791305656
+Episode: 759
+	Score: 34.88617486083373
+	Avg past 100 score: 51.54242533680284
+Episode: 760
+	Score: 75.6620929447765
+	Avg past 100 score: 51.24434047230413
+Episode: 761
+	Score: 50.745241568677805
+	Avg past 100 score: 51.752475196662225
+Episode: 762
+	Score: 10.961120071027175
+	Avg past 100 score: 51.693111468137715
+Episode: 763
+	Score: 72.21118148602545
+	Avg past 100 score: 51.50433942032003
+Episode: 764
+	Score: 78.64805881712925
+	Avg past 100 score: 51.640737468052045
+Episode: 765
+	Score: 126.57048761632971
+	Avg past 100 score: 52.29398844068657
+Episode: 766
+	Score: 36.15570228411393
+	Avg past 100 score: 52.82684815084942
+Episode: 767
+	Score: 53.29673616820947
+	Avg past 100 score: 52.88796136200217
+Episode: 768
+	Score: 14.36504766776819
+	Avg past 100 score: 53.08290058337576
+Episode: 769
+	Score: 69.02963602763006
+	Avg past 100 score: 53.1086058154262
+Episode: 770
+	Score: 26.56379628380422
+	Avg past 100 score: 53.378112127940625
+Episode: 771
+	Score: 43.16079912995073
+	Avg past 100 score: 53.54269032709226
+Episode: 772
+	Score: 40.7855758526447
+	Avg past 100 score: 53.41424012414487
+Episode: 773
+	Score: 22.67933591141958
+	Avg past 100 score: 53.237141855250385
+Episode: 774
+	Score: 63.31828932379458
+	Avg past 100 score: 53.08435932000813
+Episode: 775
+	Score: 20.556558534587644
+	Avg past 100 score: 53.43147404185422
+Episode: 776
+	Score: 56.14343124661936
+	Avg past 100 score: 53.414079351998474
+Episode: 777
+	Score: 67.17767846012828
+	Avg past 100 score: 53.75518253721646
+Episode: 778
+	Score: 47.63023918037387
+	Avg past 100 score: 54.362690255009156
+Episode: 779
+	Score: 20.16196429339999
+	Avg past 100 score: 54.241478301862095
+Episode: 780
+	Score: 24.88780331933363
+	Avg past 100 score: 53.98189314267481
+Episode: 781
+	Score: 51.31007385304705
+	Avg past 100 score: 53.7766774407881
+Episode: 782
+	Score: 52.30235766242683
+	Avg past 100 score: 53.659427042710696
+Episode: 783
+	Score: 19.480242283168167
+	Avg past 100 score: 53.71871524101387
+Episode: 784
+	Score: 57.65270189365201
+	Avg past 100 score: 53.55769022367989
+Episode: 785
+	Score: 44.874731449494995
+	Avg past 100 score: 53.79209444270734
+Episode: 786
+	Score: 45.78115164209156
+	Avg past 100 score: 53.713913540439364
+Episode: 787
+	Score: 9.410750794732435
+	Avg past 100 score: 54.05934138201484
+Episode: 788
+	Score: 25.30053374103524
+	Avg past 100 score: 53.52746394699408
+Episode: 789
+	Score: 49.90249117616227
+	Avg past 100 score: 53.29858571921359
+Episode: 790
+	Score: 13.805995055982333
+	Avg past 100 score: 53.23717193988247
+Episode: 791
+	Score: 51.52591411295262
+	Avg past 100 score: 52.73665184557026
+Episode: 792
+	Score: 64.4660335611552
+	Avg past 100 score: 52.364696733112645
+Episode: 793
+	Score: 7.532770211977715
+	Avg past 100 score: 52.769626331189755
+Episode: 794
+	Score: 40.21206883302973
+	Avg past 100 score: 52.43172146693391
+Episode: 795
+	Score: 35.96532178661701
+	Avg past 100 score: 52.23152953771334
+Episode: 796
+	Score: 48.611518884416334
+	Avg past 100 score: 51.93886762255263
+Episode: 797
+	Score: 58.76800473474647
+	Avg past 100 score: 51.91525532402786
+Episode: 798
+	Score: 33.05665074534376
+	Avg past 100 score: 51.83366802428732
+Episode: 799
+	Score: 51.20372468114578
+	Avg past 100 score: 51.08047904442456
+Episode: 800
+	Score: 35.767895970832214
+	Avg past 100 score: 50.900247224872956
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 801
+	Score: 14.18074549294331
+	Avg past 100 score: 50.956900524402734
+Episode: 802
+	Score: 65.20575367896394
+	Avg past 100 score: 50.55451490901802
+Episode: 803
+	Score: 35.82300276228819
+	Avg past 100 score: 50.59505115813935
+Episode: 804
+	Score: 46.254400041483535
+	Avg past 100 score: 49.846377724943174
+Episode: 805
+	Score: 22.16332536059516
+	Avg past 100 score: 49.723739233319286
+Episode: 806
+	Score: 20.64941057054834
+	Avg past 100 score: 49.268780565438426
+Episode: 807
+	Score: 42.2397069640627
+	Avg past 100 score: 49.388426618536734
+Episode: 808
+	Score: 67.47458091454412
+	Avg past 100 score: 48.825923170135674
+Episode: 809
+	Score: 23.708369882184677
+	Avg past 100 score: 49.0395138760672
+Episode: 810
+	Score: 48.339855817400604
+	Avg past 100 score: 48.53413503163314
+Episode: 811
+	Score: 37.340727436864235
+	Avg past 100 score: 48.348367109326524
+Episode: 812
+	Score: 55.64151676108171
+	Avg past 100 score: 48.53842582475214
+Episode: 813
+	Score: 40.62764854557727
+	Avg past 100 score: 48.26180115578505
+Episode: 814
+	Score: 57.1323500753973
+	Avg past 100 score: 47.88113268379843
+Episode: 815
+	Score: 45.11637561539696
+	Avg past 100 score: 47.87776977403259
+Episode: 816
+	Score: 12.900754939256744
+	Avg past 100 score: 48.02228242260659
+Episode: 817
+	Score: 44.322705402462304
+	Avg past 100 score: 47.4296767370843
+Episode: 818
+	Score: 42.19641661889513
+	Avg past 100 score: 47.54144724312407
+Episode: 819
+	Score: 60.785963362675496
+	Avg past 100 score: 47.48092791599391
+Episode: 820
+	Score: 22.854448146440767
+	Avg past 100 score: 47.91483931993431
+Episode: 821
+	Score: 33.645429308610886
+	Avg past 100 score: 47.12483745244459
+Episode: 822
+	Score: 42.35425596785816
+	Avg past 100 score: 46.77292271081401
+Episode: 823
+	Score: 15.963244075294245
+	Avg past 100 score: 46.62972488095518
+Episode: 824
+	Score: 19.97687870162455
+	Avg past 100 score: 46.26462005042173
+Episode: 825
+	Score: 16.18256923911924
+	Avg past 100 score: 45.82985527315219
+Episode: 826
+	Score: 12.484510643915698
+	Avg past 100 score: 45.11803358206567
+Episode: 827
+	Score: 46.903559342704035
+	Avg past 100 score: 44.867837872256274
+Episode: 828
+	Score: 39.29085692517797
+	Avg past 100 score: 44.777429058907394
+Episode: 829
+	Score: 45.56544483402236
+	Avg past 100 score: 44.749541503130885
+Episode: 830
+	Score: 30.173179663717754
+	Avg past 100 score: 44.408563463240654
+Episode: 831
+	Score: 12.332431568086827
+	Avg past 100 score: 44.34996824930993
+Episode: 832
+	Score: 28.339469353075735
+	Avg past 100 score: 44.35545748831513
+Episode: 833
+	Score: 11.041719160889361
+	Avg past 100 score: 44.15750963539709
+Episode: 834
+	Score: 16.508909928527746
+	Avg past 100 score: 44.12864869172663
+Episode: 835
+	Score: 47.1449300917712
+	Avg past 100 score: 43.54068796458039
+Episode: 836
+	Score: 18.18157139776105
+	Avg past 100 score: 43.26414227099051
+Episode: 837
+	Score: 23.09542768990452
+	Avg past 100 score: 42.87851374457823
+Episode: 838
+	Score: 31.499362130818717
+	Avg past 100 score: 42.76767611373195
+Episode: 839
+	Score: 28.209137342192914
+	Avg past 100 score: 42.53093736181777
+Episode: 840
+	Score: 19.480958383953705
+	Avg past 100 score: 42.57082305485362
+Episode: 841
+	Score: 31.751069240272045
+	Avg past 100 score: 42.2187634429054
+Episode: 842
+	Score: 36.55118094350803
+	Avg past 100 score: 41.596277978143604
+Episode: 843
+	Score: 37.91282519880175
+	Avg past 100 score: 41.26268650660567
+Episode: 844
+	Score: 26.569724384271964
+	Avg past 100 score: 41.212857645663895
+Episode: 845
+	Score: 34.32270441483706
+	Avg past 100 score: 41.0282731612359
+Episode: 846
+	Score: 23.454845967617906
+	Avg past 100 score: 40.77932725451336
+Episode: 847
+	Score: 32.79377441904083
+	Avg past 100 score: 40.53063075613273
+Episode: 848
+	Score: 16.474036671051923
+	Avg past 100 score: 40.04515470354268
+Episode: 849
+	Score: 12.679195721951233
+	Avg past 100 score: 39.657659866663806
+Episode: 850
+	Score: 40.75575971954755
+	Avg past 100 score: 38.72814520677912
+Episode: 851
+	Score: 12.262661984783007
+	Avg past 100 score: 38.54038548081754
+Episode: 852
+	Score: 29.344866714244503
+	Avg past 100 score: 38.199701543895486
+Episode: 853
+	Score: 22.202811071225856
+	Avg past 100 score: 38.2235063826923
+Episode: 854
+	Score: 15.216821218671447
+	Avg past 100 score: 38.089516174453045
+Episode: 855
+	Score: 45.025417341723696
+	Avg past 100 score: 37.67816313042512
+Episode: 856
+	Score: 28.42608024036005
+	Avg past 100 score: 37.53722593143746
+Episode: 857
+	Score: 21.270738702606078
+	Avg past 100 score: 37.19247982277699
+Episode: 858
+	Score: 19.00207583301447
+	Avg past 100 score: 36.85920430465596
+Episode: 859
+	Score: 19.979961632835597
+	Avg past 100 score: 36.818763780482065
+Episode: 860
+	Score: 23.703517199197616
+	Avg past 100 score: 36.66970164820208
+Episode: 861
+	Score: 22.148872840980243
+	Avg past 100 score: 36.150115890746285
+Episode: 862
+	Score: 11.895835946398705
+	Avg past 100 score: 35.86415220346931
+Episode: 863
+	Score: 13.386938431469558
+	Avg past 100 score: 35.87349936222303
+Episode: 864
+	Score: 16.852063191546637
+	Avg past 100 score: 35.28525693167747
+Episode: 865
+	Score: 28.015140017113566
+	Avg past 100 score: 34.66729697542164
+Episode: 866
+	Score: 13.357015720822591
+	Avg past 100 score: 33.68174349942948
+Episode: 867
+	Score: 15.911652938462794
+	Avg past 100 score: 33.45375663379657
+Episode: 868
+	Score: 25.486637836322192
+	Avg past 100 score: 33.07990580149911
+Episode: 869
+	Score: 40.358668841082945
+	Avg past 100 score: 33.19112170318465
+Episode: 870
+	Score: 8.993154875680126
+	Avg past 100 score: 32.904412031319175
+Episode: 871
+	Score: 26.040276289494212
+	Avg past 100 score: 32.72870561723793
+Episode: 872
+	Score: 13.873742738738654
+	Avg past 100 score: 32.55750038883336
+Episode: 873
+	Score: 9.336953117173502
+	Avg past 100 score: 32.2883820576943
+Episode: 874
+	Score: 9.038438480008733
+	Avg past 100 score: 32.15495822975184
+Episode: 875
+	Score: 13.117150842212142
+	Avg past 100 score: 31.612159721313983
+Episode: 876
+	Score: 22.112324047622014
+	Avg past 100 score: 31.537765644390234
+Episode: 877
+	Score: 22.53918991144747
+	Avg past 100 score: 31.19745457240026
+Episode: 878
+	Score: 15.675627390346062
+	Avg past 100 score: 30.751069686913453
+Episode: 879
+	Score: 11.55139543539421
+	Avg past 100 score: 30.431523569013176
+Episode: 880
+	Score: 21.285624033221126
+	Avg past 100 score: 30.345417880433118
+Episode: 881
+	Score: 29.275423815981906
+	Avg past 100 score: 30.309396087571994
+Episode: 882
+	Score: 28.204110292209815
+	Avg past 100 score: 30.089049587201337
+Episode: 883
+	Score: 10.301810044625944
+	Avg past 100 score: 29.84806711349917
+Episode: 884
+	Score: 25.933682248842985
+	Avg past 100 score: 29.756282791113748
+Episode: 885
+	Score: 28.106635687618773
+	Avg past 100 score: 29.439092594665663
+Episode: 886
+	Score: 29.183403464796204
+	Avg past 100 score: 29.271411637046896
+Episode: 887
+	Score: 19.79171756240116
+	Avg past 100 score: 29.105434155273947
+Episode: 888
+	Score: 22.071313100866977
+	Avg past 100 score: 29.209243822950626
+Episode: 889
+	Score: 22.41624908729202
+	Avg past 100 score: 29.176951616548944
+Episode: 890
+	Score: 29.99218543280254
+	Avg past 100 score: 28.902089195660242
+Episode: 891
+	Score: 28.07722208022394
+	Avg past 100 score: 29.063951099428447
+Episode: 892
+	Score: 8.967594326981768
+	Avg past 100 score: 28.829464179101155
+Episode: 893
+	Score: 21.865497427315198
+	Avg past 100 score: 28.27447978675942
+Episode: 894
+	Score: 32.1824860336386
+	Avg past 100 score: 28.417807058912803
+Episode: 895
+	Score: 35.35423240370372
+	Avg past 100 score: 28.33751123091889
+Episode: 896
+	Score: 34.7691461730071
+	Avg past 100 score: 28.331400337089757
+Episode: 897
+	Score: 14.702742408029737
+	Avg past 100 score: 28.192976609975666
+Episode: 898
+	Score: 26.01696971621873
+	Avg past 100 score: 27.752323986708493
+Episode: 899
+	Score: 19.61181797789918
+	Avg past 100 score: 27.681927176417243
+Episode: 900
+	Score: 10.434563544324854
+	Avg past 100 score: 27.366008109384776
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 901
+	Score: 21.374183111400768
+	Avg past 100 score: 27.1126747851197
+Episode: 902
+	Score: 10.04225630296225
+	Avg past 100 score: 27.184609161304273
+Episode: 903
+	Score: 30.675859698941082
+	Avg past 100 score: 26.63297418754426
+Episode: 904
+	Score: 48.13770444284787
+	Avg past 100 score: 26.581502756910794
+Episode: 905
+	Score: 32.697981919161975
+	Avg past 100 score: 26.600335800924437
+Episode: 906
+	Score: 17.29989945202727
+	Avg past 100 score: 26.705682366510104
+Episode: 907
+	Score: 15.815771750259124
+	Avg past 100 score: 26.67218725532489
+Episode: 908
+	Score: 24.334798826074056
+	Avg past 100 score: 26.40794790318685
+Episode: 909
+	Score: 30.221866402648054
+	Avg past 100 score: 25.97655008230215
+Episode: 910
+	Score: 46.61369019018657
+	Avg past 100 score: 26.041685047506785
+Episode: 911
+	Score: 30.49773338978941
+	Avg past 100 score: 26.024423391234645
+Episode: 912
+	Score: 49.55177338963205
+	Avg past 100 score: 25.955993450763895
+Episode: 913
+	Score: 14.829452622681856
+	Avg past 100 score: 25.895096017049404
+Episode: 914
+	Score: 33.37604743978854
+	Avg past 100 score: 25.637114057820444
+Episode: 915
+	Score: 39.117243882776656
+	Avg past 100 score: 25.399551031464362
+Episode: 916
+	Score: 10.08930999226868
+	Avg past 100 score: 25.339559714138154
+Episode: 917
+	Score: 44.6339680043642
+	Avg past 100 score: 25.31144526466828
+Episode: 918
+	Score: 47.46106782707978
+	Avg past 100 score: 25.314557890687293
+Episode: 919
+	Score: 15.085792989046736
+	Avg past 100 score: 25.367204402769143
+Episode: 920
+	Score: 26.210984240201388
+	Avg past 100 score: 24.91020269903285
+Episode: 921
+	Score: 26.146875297481362
+	Avg past 100 score: 24.943768059970463
+Episode: 922
+	Score: 34.19365654144945
+	Avg past 100 score: 24.868782519859163
+Episode: 923
+	Score: 51.25888436177575
+	Avg past 100 score: 24.78717652559508
+Episode: 924
+	Score: 46.73712640636687
+	Avg past 100 score: 25.14013292845989
+Episode: 925
+	Score: 9.063419267365878
+	Avg past 100 score: 25.40773540550732
+Episode: 926
+	Score: 19.589643196626138
+	Avg past 100 score: 25.33654390578978
+Episode: 927
+	Score: 20.84007849408822
+	Avg past 100 score: 25.40759523131689
+Episode: 928
+	Score: 33.60295430714772
+	Avg past 100 score: 25.14696042283073
+Episode: 929
+	Score: 31.021193475568328
+	Avg past 100 score: 25.090081396650426
+Episode: 930
+	Score: 6.969165617261421
+	Avg past 100 score: 24.944638883065885
+Episode: 931
+	Score: 68.75990463674748
+	Avg past 100 score: 24.712598742601322
+Episode: 932
+	Score: 20.778745765035808
+	Avg past 100 score: 25.27687347328793
+Episode: 933
+	Score: 48.29806978221644
+	Avg past 100 score: 25.201266237407527
+Episode: 934
+	Score: 38.767199544066735
+	Avg past 100 score: 25.573829743620795
+Episode: 935
+	Score: 64.47142370515081
+	Avg past 100 score: 25.796412639776186
+Episode: 936
+	Score: 47.10168047554112
+	Avg past 100 score: 25.969677575909987
+Episode: 937
+	Score: 76.77571484243329
+	Avg past 100 score: 26.258878666687792
+Episode: 938
+	Score: 30.050844330806278
+	Avg past 100 score: 26.79568153821308
+Episode: 939
+	Score: 31.74775184335357
+	Avg past 100 score: 26.781196360212952
+Episode: 940
+	Score: 35.48398988439956
+	Avg past 100 score: 26.81658250522456
+Episode: 941
+	Score: 38.58216035374524
+	Avg past 100 score: 26.976612820229015
+Episode: 942
+	Score: 17.167555917393077
+	Avg past 100 score: 27.044923731363745
+Episode: 943
+	Score: 56.93926342902703
+	Avg past 100 score: 26.8510874811026
+Episode: 944
+	Score: 34.224339946723454
+	Avg past 100 score: 27.041351863404852
+Episode: 945
+	Score: 27.614731466482297
+	Avg past 100 score: 27.11789801902937
+Episode: 946
+	Score: 46.959553134204306
+	Avg past 100 score: 27.05081828954582
+Episode: 947
+	Score: 33.155774313194506
+	Avg past 100 score: 27.28586536121168
+Episode: 948
+	Score: 30.57703317937823
+	Avg past 100 score: 27.28948536015322
+Episode: 949
+	Score: 9.118016544390807
+	Avg past 100 score: 27.430515325236478
+Episode: 950
+	Score: 17.64416703801941
+	Avg past 100 score: 27.39490353346088
+Episode: 951
+	Score: 28.081117617982358
+	Avg past 100 score: 27.163787606645595
+Episode: 952
+	Score: 8.13555446461859
+	Avg past 100 score: 27.32197216297759
+Episode: 953
+	Score: 18.061038220470603
+	Avg past 100 score: 27.109879040481328
+Episode: 954
+	Score: 7.511929719962856
+	Avg past 100 score: 27.068461311973778
+Episode: 955
+	Score: 29.251256486993626
+	Avg past 100 score: 26.991412396986693
+Episode: 956
+	Score: 30.43640422075987
+	Avg past 100 score: 26.833670788439395
+Episode: 957
+	Score: 17.17450767539611
+	Avg past 100 score: 26.85377402824339
+Episode: 958
+	Score: 25.28778095534918
+	Avg past 100 score: 26.81281171797129
+Episode: 959
+	Score: 21.129303732209582
+	Avg past 100 score: 26.875668769194636
+Episode: 960
+	Score: 29.41595286452635
+	Avg past 100 score: 26.887162190188377
+Episode: 961
+	Score: 17.677019409327343
+	Avg past 100 score: 26.944286546841667
+Episode: 962
+	Score: 30.004542999054213
+	Avg past 100 score: 26.89956801252514
+Episode: 963
+	Score: 34.37608444106512
+	Avg past 100 score: 27.080655083051692
+Episode: 964
+	Score: 51.87363526944746
+	Avg past 100 score: 27.29054654314764
+Episode: 965
+	Score: 21.595169721509915
+	Avg past 100 score: 27.64076226392665
+Episode: 966
+	Score: 19.53895434055647
+	Avg past 100 score: 27.576562560970615
+Episode: 967
+	Score: 26.063944335010916
+	Avg past 100 score: 27.638381947167954
+Episode: 968
+	Score: 20.070886381647806
+	Avg past 100 score: 27.739904861133436
+Episode: 969
+	Score: 10.275083342059093
+	Avg past 100 score: 27.685747346586695
+Episode: 970
+	Score: 30.60589790157973
+	Avg past 100 score: 27.384911491596455
+Episode: 971
+	Score: 35.79074212218719
+	Avg past 100 score: 27.60103892185545
+Episode: 972
+	Score: 31.485979780343108
+	Avg past 100 score: 27.698543580182378
+Episode: 973
+	Score: 25.01061247204515
+	Avg past 100 score: 27.874665950598427
+Episode: 974
+	Score: 13.969341109252792
+	Avg past 100 score: 28.031402544147145
+Episode: 975
+	Score: 33.79761625504629
+	Avg past 100 score: 28.08071157043958
+Episode: 976
+	Score: 73.35019114214546
+	Avg past 100 score: 28.28751622456792
+Episode: 977
+	Score: 68.62375785359605
+	Avg past 100 score: 28.79989489551316
+Episode: 978
+	Score: 19.049236393956978
+	Avg past 100 score: 29.260740574934644
+Episode: 979
+	Score: 37.68617894832806
+	Avg past 100 score: 29.29447666497076
+Episode: 980
+	Score: 29.316717446866363
+	Avg past 100 score: 29.555824500100094
+Episode: 981
+	Score: 49.87803701997141
+	Avg past 100 score: 29.63613543423655
+Episode: 982
+	Score: 24.670747934840623
+	Avg past 100 score: 29.84216156627644
+Episode: 983
+	Score: 31.24683298212899
+	Avg past 100 score: 29.806827942702753
+Episode: 984
+	Score: 31.009611884894028
+	Avg past 100 score: 30.016278172077776
+Episode: 985
+	Score: 29.82041648030281
+	Avg past 100 score: 30.067037468438294
+Episode: 986
+	Score: 35.866225373169236
+	Avg past 100 score: 30.084175276365126
+Episode: 987
+	Score: 21.01255129717968
+	Avg past 100 score: 30.151003495448858
+Episode: 988
+	Score: 18.514256918972187
+	Avg past 100 score: 30.16321183279664
+Episode: 989
+	Score: 13.54929873161018
+	Avg past 100 score: 30.12764127097769
+Episode: 990
+	Score: 73.19565136000432
+	Avg past 100 score: 30.038971767420875
+Episode: 991
+	Score: 44.33745068303224
+	Avg past 100 score: 30.47100642669289
+Episode: 992
+	Score: 28.252178699286148
+	Avg past 100 score: 30.633608712720978
+Episode: 993
+	Score: 37.159390073269606
+	Avg past 100 score: 30.826454556444023
+Episode: 994
+	Score: 14.862657317849385
+	Avg past 100 score: 30.97939348290357
+Episode: 995
+	Score: 85.95443392028523
+	Avg past 100 score: 30.806195195745676
+Episode: 996
+	Score: 45.736180301036015
+	Avg past 100 score: 31.312197210911492
+Episode: 997
+	Score: 47.736067870970466
+	Avg past 100 score: 31.42186755219178
+Episode: 998
+	Score: 72.04767220154066
+	Avg past 100 score: 31.75220080682119
+Episode: 999
+	Score: 40.18453611425039
+	Avg past 100 score: 32.2125078316744
+Episode: 1000
+	Score: 14.872546957636422
+	Avg past 100 score: 32.41823501303792
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 1001
+	Score: 54.46948309174992
+	Avg past 100 score: 32.46261484717104
+Episode: 1002
+	Score: 51.79017955674365
+	Avg past 100 score: 32.793567846974526
+Episode: 1003
+	Score: 42.35871206710792
+	Avg past 100 score: 33.21104707951235
+Episode: 1004
+	Score: 33.301294636827976
+	Avg past 100 score: 33.32787560319401
+Episode: 1005
+	Score: 11.692309377460992
+	Avg past 100 score: 33.17951150513381
+Episode: 1006
+	Score: 27.163962079804737
+	Avg past 100 score: 32.9694547797168
+Episode: 1007
+	Score: 60.21372413364323
+	Avg past 100 score: 33.06809540599457
+Episode: 1008
+	Score: 40.91732253862376
+	Avg past 100 score: 33.512074929828415
+Episode: 1009
+	Score: 23.565759085457437
+	Avg past 100 score: 33.67790016695391
+Episode: 1010
+	Score: 106.88683663833551
+	Avg past 100 score: 33.61133909378201
+Episode: 1011
+	Score: 23.315562816379085
+	Avg past 100 score: 34.2140705582635
+Episode: 1012
+	Score: 69.99324909411374
+	Avg past 100 score: 34.14224885252939
+Episode: 1013
+	Score: 54.489347808571
+	Avg past 100 score: 34.34666360957421
+Episode: 1014
+	Score: 42.21930264838211
+	Avg past 100 score: 34.7432625614331
+Episode: 1015
+	Score: 61.288407782431364
+	Avg past 100 score: 34.83169511351903
+Episode: 1016
+	Score: 29.143848870796234
+	Avg past 100 score: 35.053406752515585
+Episode: 1017
+	Score: 25.02090859819542
+	Avg past 100 score: 35.24395214130086
+Episode: 1018
+	Score: 6.413460660387169
+	Avg past 100 score: 35.047821547239174
+Episode: 1019
+	Score: 42.22588448742912
+	Avg past 100 score: 34.637345475572246
+Episode: 1020
+	Score: 43.266086907888
+	Avg past 100 score: 34.90874639055607
+Episode: 1021
+	Score: 35.37730282993818
+	Avg past 100 score: 35.07929741723294
+Episode: 1022
+	Score: 33.86759648277339
+	Avg past 100 score: 35.17160169255751
+Episode: 1023
+	Score: 7.203084492029369
+	Avg past 100 score: 35.168341091970746
+Episode: 1024
+	Score: 26.919056484179396
+	Avg past 100 score: 34.72778309327329
+Episode: 1025
+	Score: 23.715083990986884
+	Avg past 100 score: 34.52960239405141
+Episode: 1026
+	Score: 59.80879187723622
+	Avg past 100 score: 34.67611904128761
+Episode: 1027
+	Score: 59.225753469900646
+	Avg past 100 score: 35.078310528093716
+Episode: 1028
+	Score: 33.58861464776353
+	Avg past 100 score: 35.46216727785184
+Episode: 1029
+	Score: 55.891301419924616
+	Avg past 100 score: 35.462023881258
+Episode: 1030
+	Score: 8.092441896992652
+	Avg past 100 score: 35.71072496070156
+Episode: 1031
+	Score: 39.05551174266096
+	Avg past 100 score: 35.721957723498875
+Episode: 1032
+	Score: 15.724011628973214
+	Avg past 100 score: 35.424913794558016
+Episode: 1033
+	Score: 12.976936844177546
+	Avg past 100 score: 35.37436645319738
+Episode: 1034
+	Score: 19.947548703036528
+	Avg past 100 score: 35.021155123816996
+Episode: 1035
+	Score: 46.06100827794184
+	Avg past 100 score: 34.83295861540669
+Episode: 1036
+	Score: 8.928313779814001
+	Avg past 100 score: 34.6488544611346
+Episode: 1037
+	Score: 22.230266294484455
+	Avg past 100 score: 34.26712079417732
+Episode: 1038
+	Score: 15.647708870174192
+	Avg past 100 score: 33.721666308697834
+Episode: 1039
+	Score: 37.06347209707284
+	Avg past 100 score: 33.577634954091515
+Episode: 1040
+	Score: 30.070107007060543
+	Avg past 100 score: 33.63079215662871
+Episode: 1041
+	Score: 20.689440002664924
+	Avg past 100 score: 33.57665332785532
+Episode: 1042
+	Score: 8.584635049274022
+	Avg past 100 score: 33.397726124344516
+Episode: 1043
+	Score: 37.97305081225932
+	Avg past 100 score: 33.311896915663326
+Episode: 1044
+	Score: 41.65996746109291
+	Avg past 100 score: 33.12223478949565
+Episode: 1045
+	Score: 19.853008572520174
+	Avg past 100 score: 33.19659106463935
+Episode: 1046
+	Score: 12.687913588671522
+	Avg past 100 score: 33.11897383569973
+Episode: 1047
+	Score: 22.77901324003257
+	Avg past 100 score: 32.7762574402444
+Episode: 1048
+	Score: 36.08879879366774
+	Avg past 100 score: 32.67248982951278
+Episode: 1049
+	Score: 55.051126988689326
+	Avg past 100 score: 32.727607485655675
+Episode: 1050
+	Score: 55.15074044432152
+	Avg past 100 score: 33.18693859009866
+Episode: 1051
+	Score: 30.409743541004975
+	Avg past 100 score: 33.56200432416168
+Episode: 1052
+	Score: 29.6878460125405
+	Avg past 100 score: 33.5852905833919
+Episode: 1053
+	Score: 33.240099479528986
+	Avg past 100 score: 33.80081349887112
+Episode: 1054
+	Score: 64.54815224236386
+	Avg past 100 score: 33.9526041114617
+Episode: 1055
+	Score: 22.948005104945473
+	Avg past 100 score: 34.52296633668572
+Episode: 1056
+	Score: 38.02615892298687
+	Avg past 100 score: 34.45993382286524
+Episode: 1057
+	Score: 22.38050328140063
+	Avg past 100 score: 34.535831369887504
+Episode: 1058
+	Score: 51.89227658611807
+	Avg past 100 score: 34.587891325947545
+Episode: 1059
+	Score: 12.40537752312693
+	Avg past 100 score: 34.85393628225524
+Episode: 1060
+	Score: 54.20771828903392
+	Avg past 100 score: 34.76669702016441
+Episode: 1061
+	Score: 27.730340391947813
+	Avg past 100 score: 35.01461467440949
+Episode: 1062
+	Score: 7.319851919162002
+	Avg past 100 score: 35.1151478842357
+Episode: 1063
+	Score: 27.598627484498802
+	Avg past 100 score: 34.88830097343677
+Episode: 1064
+	Score: 54.25888894561847
+	Avg past 100 score: 34.820526403871106
+Episode: 1065
+	Score: 17.33824958592992
+	Avg past 100 score: 34.84437894063282
+Episode: 1066
+	Score: 48.82927476038987
+	Avg past 100 score: 34.80180973927702
+Episode: 1067
+	Score: 32.72034404189749
+	Avg past 100 score: 35.09471294347536
+Episode: 1068
+	Score: 38.999990077096626
+	Avg past 100 score: 35.16127694054423
+Episode: 1069
+	Score: 25.4294735621661
+	Avg past 100 score: 35.35056797749872
+Episode: 1070
+	Score: 34.33842216381296
+	Avg past 100 score: 35.50211187969978
+Episode: 1071
+	Score: 42.18884104879742
+	Avg past 100 score: 35.53943712232211
+Episode: 1072
+	Score: 11.960467203562573
+	Avg past 100 score: 35.60341811158822
+Episode: 1073
+	Score: 57.84879571529614
+	Avg past 100 score: 35.40816298582041
+Episode: 1074
+	Score: 23.183410506018184
+	Avg past 100 score: 35.736544818252916
+Episode: 1075
+	Score: 23.144876648248598
+	Avg past 100 score: 35.82868551222057
+Episode: 1076
+	Score: 40.31781622047791
+	Avg past 100 score: 35.7221581161526
+Episode: 1077
+	Score: 14.200970726257019
+	Avg past 100 score: 35.391834366935925
+Episode: 1078
+	Score: 23.602463886649776
+	Avg past 100 score: 34.84760649566253
+Episode: 1079
+	Score: 30.187346250115127
+	Avg past 100 score: 34.89313877058945
+Episode: 1080
+	Score: 53.99114977335555
+	Avg past 100 score: 34.81815044360733
+Episode: 1081
+	Score: 60.21384009265932
+	Avg past 100 score: 35.06489476687222
+Episode: 1082
+	Score: 10.619292836466972
+	Avg past 100 score: 35.168252797599095
+Episode: 1083
+	Score: 29.113567640158262
+	Avg past 100 score: 35.027738246615364
+Episode: 1084
+	Score: 22.404546795920897
+	Avg past 100 score: 35.00640559319565
+Episode: 1085
+	Score: 14.60070073223588
+	Avg past 100 score: 34.92035494230593
+Episode: 1086
+	Score: 14.41159027205272
+	Avg past 100 score: 34.768157784825256
+Episode: 1087
+	Score: 23.739652778360657
+	Avg past 100 score: 34.55361143381409
+Episode: 1088
+	Score: 41.069095520091
+	Avg past 100 score: 34.5808824486259
+Episode: 1089
+	Score: 7.4048341621898786
+	Avg past 100 score: 34.80643083463709
+Episode: 1090
+	Score: 41.501464767720215
+	Avg past 100 score: 34.74498618894288
+Episode: 1091
+	Score: 17.422600767405875
+	Avg past 100 score: 34.428044323020046
+Episode: 1092
+	Score: 16.31033629170534
+	Avg past 100 score: 34.15889582386378
+Episode: 1093
+	Score: 40.61877541294829
+	Avg past 100 score: 34.03947739978798
+Episode: 1094
+	Score: 7.194788365878843
+	Avg past 100 score: 34.074071253184755
+Episode: 1095
+	Score: 18.644911392792977
+	Avg past 100 score: 33.99739256366505
+Episode: 1096
+	Score: 6.308183931152929
+	Avg past 100 score: 33.32429733839013
+Episode: 1097
+	Score: 11.106541136449033
+	Avg past 100 score: 32.9300173746913
+Episode: 1098
+	Score: 26.860324203079067
+	Avg past 100 score: 32.56372210734608
+Episode: 1099
+	Score: 9.885583891617983
+	Avg past 100 score: 32.11184862736147
+Episode: 1100
+	Score: 25.710826963355593
+	Avg past 100 score: 31.80885910513514
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 1101
+	Score: 24.34319792188365
+	Avg past 100 score: 31.91724190519233
+Episode: 1102
+	Score: 22.950925650752406
+	Avg past 100 score: 31.615979053493675
+Episode: 1103
+	Score: 31.44944744709539
+	Avg past 100 score: 31.32758651443376
+Episode: 1104
+	Score: 10.559140069664203
+	Avg past 100 score: 31.218493868233637
+Episode: 1105
+	Score: 15.12748853811486
+	Avg past 100 score: 30.991072322561994
+Episode: 1106
+	Score: 20.71017314375124
+	Avg past 100 score: 31.02542411416854
+Episode: 1107
+	Score: 32.71675695224919
+	Avg past 100 score: 30.960886224808004
+Episode: 1108
+	Score: 50.88275265134872
+	Avg past 100 score: 30.68591655299407
+Episode: 1109
+	Score: 53.488484198904864
+	Avg past 100 score: 30.78557085412131
+Episode: 1110
+	Score: 24.944317711358465
+	Avg past 100 score: 31.084798105255786
+Episode: 1111
+	Score: 14.957050308415832
+	Avg past 100 score: 30.265372915986017
+Episode: 1112
+	Score: 63.59844844381919
+	Avg past 100 score: 30.181787790906384
+Episode: 1113
+	Score: 37.23784216434101
+	Avg past 100 score: 30.117839784403436
+Episode: 1114
+	Score: 7.3807453783229
+	Avg past 100 score: 29.945324727961136
+Episode: 1115
+	Score: 47.84516162112014
+	Avg past 100 score: 29.596939155260547
+Episode: 1116
+	Score: 55.74116251003844
+	Avg past 100 score: 29.462506693647434
+Episode: 1117
+	Score: 7.08949850558896
+	Avg past 100 score: 29.72847983003986
+Episode: 1118
+	Score: 57.96746982866897
+	Avg past 100 score: 29.549165729113792
+Episode: 1119
+	Score: 19.236046755686406
+	Avg past 100 score: 30.064705820796608
+Episode: 1120
+	Score: 39.72664600373669
+	Avg past 100 score: 29.834807443479182
+Episode: 1121
+	Score: 23.955564903010696
+	Avg past 100 score: 29.799413034437666
+Episode: 1122
+	Score: 20.967855641618375
+	Avg past 100 score: 29.685195655168396
+Episode: 1123
+	Score: 21.683338548353106
+	Avg past 100 score: 29.556198246756843
+Episode: 1124
+	Score: 8.576826586726714
+	Avg past 100 score: 29.701000787320087
+Episode: 1125
+	Score: 40.25365947000683
+	Avg past 100 score: 29.517578488345556
+Episode: 1126
+	Score: 44.207578232427224
+	Avg past 100 score: 29.682964243135757
+Episode: 1127
+	Score: 11.976154048673129
+	Avg past 100 score: 29.526952106687663
+Episode: 1128
+	Score: 10.74389919270338
+	Avg past 100 score: 29.054456112475386
+Episode: 1129
+	Score: 17.387415676525876
+	Avg past 100 score: 28.82600895792479
+Episode: 1130
+	Score: 16.685231782157313
+	Avg past 100 score: 28.440970100490798
+Episode: 1131
+	Score: 15.421033135699957
+	Avg past 100 score: 28.52689799934244
+Episode: 1132
+	Score: 23.932238067076966
+	Avg past 100 score: 28.290553213272833
+Episode: 1133
+	Score: 7.615991510620171
+	Avg past 100 score: 28.372635477653873
+Episode: 1134
+	Score: 29.78705979020081
+	Avg past 100 score: 28.319026024318294
+Episode: 1135
+	Score: 8.732340110042557
+	Avg past 100 score: 28.41742113518994
+Episode: 1136
+	Score: 31.027822484685622
+	Avg past 100 score: 28.044134453510946
+Episode: 1137
+	Score: 8.011225979944522
+	Avg past 100 score: 28.26512954055966
+Episode: 1138
+	Score: 18.91102110662244
+	Avg past 100 score: 28.122939137414264
+Episode: 1139
+	Score: 9.866320327178322
+	Avg past 100 score: 28.155572259778747
+Episode: 1140
+	Score: 31.72206800151616
+	Avg past 100 score: 27.883600742079807
+Episode: 1141
+	Score: 54.95284126512706
+	Avg past 100 score: 27.90012035202436
+Episode: 1142
+	Score: 16.73524989556013
+	Avg past 100 score: 28.24275436464898
+Episode: 1143
+	Score: 55.59838121528313
+	Avg past 100 score: 28.324260513111845
+Episode: 1144
+	Score: 12.598296596023085
+	Avg past 100 score: 28.50051381714208
+Episode: 1145
+	Score: 40.44494409766048
+	Avg past 100 score: 28.209897108491383
+Episode: 1146
+	Score: 10.239889978780411
+	Avg past 100 score: 28.415816463742786
+Episode: 1147
+	Score: 22.22173561511391
+	Avg past 100 score: 28.391336227643873
+Episode: 1148
+	Score: 6.328810966319659
+	Avg past 100 score: 28.385763451394688
+Episode: 1149
+	Score: 33.99279338786041
+	Avg past 100 score: 28.088163573121207
+Episode: 1150
+	Score: 14.476790934547108
+	Avg past 100 score: 27.87758023711292
+Episode: 1151
+	Score: 6.662982860918749
+	Avg past 100 score: 27.470840742015174
+Episode: 1152
+	Score: 24.705532374114476
+	Avg past 100 score: 27.233373135214308
+Episode: 1153
+	Score: 22.214508967135437
+	Avg past 100 score: 27.183549998830053
+Episode: 1154
+	Score: 35.337716510434724
+	Avg past 100 score: 27.073294093706117
+Episode: 1155
+	Score: 15.6076311182908
+	Avg past 100 score: 26.78118973638683
+Episode: 1156
+	Score: 16.438620591049332
+	Avg past 100 score: 26.707785996520283
+Episode: 1157
+	Score: 57.06360812734982
+	Avg past 100 score: 26.491910613200904
+Episode: 1158
+	Score: 38.75139007272876
+	Avg past 100 score: 26.838741661660396
+Episode: 1159
+	Score: 10.85191734431481
+	Avg past 100 score: 26.7073327965265
+Episode: 1160
+	Score: 60.626797036691116
+	Avg past 100 score: 26.691798194738375
+Episode: 1161
+	Score: 41.67085716280747
+	Avg past 100 score: 26.755988982214948
+Episode: 1162
+	Score: 8.375198237597944
+	Avg past 100 score: 26.895394149923547
+Episode: 1163
+	Score: 26.820596896789283
+	Avg past 100 score: 26.90594761310791
+Episode: 1164
+	Score: 37.40225971905008
+	Avg past 100 score: 26.89816730723081
+Episode: 1165
+	Score: 26.79189043860375
+	Avg past 100 score: 26.729601014965127
+Episode: 1166
+	Score: 13.095827580006286
+	Avg past 100 score: 26.82413742349187
+Episode: 1167
+	Score: 23.425475332716644
+	Avg past 100 score: 26.46680295168803
+Episode: 1168
+	Score: 29.91990662687881
+	Avg past 100 score: 26.373854264596226
+Episode: 1169
+	Score: 6.525962515818801
+	Avg past 100 score: 26.28305343009405
+Episode: 1170
+	Score: 24.83615768988702
+	Avg past 100 score: 26.094018319630578
+Episode: 1171
+	Score: 21.2671721752479
+	Avg past 100 score: 25.998995674891315
+Episode: 1172
+	Score: 19.799108189361338
+	Avg past 100 score: 25.789778986155817
+Episode: 1173
+	Score: 70.54312728620555
+	Avg past 100 score: 25.86816539601381
+Episode: 1174
+	Score: 26.759743128987886
+	Avg past 100 score: 25.995108711722906
+Episode: 1175
+	Score: 46.79391523247416
+	Avg past 100 score: 26.030872037952605
+Episode: 1176
+	Score: 9.785191083305769
+	Avg past 100 score: 26.267362423794854
+Episode: 1177
+	Score: 5.546231008896774
+	Avg past 100 score: 25.962036172423133
+Episode: 1178
+	Score: 30.47706191080876
+	Avg past 100 score: 25.87548877524953
+Episode: 1179
+	Score: 34.7263931474987
+	Avg past 100 score: 25.94423475549112
+Episode: 1180
+	Score: 24.499635763974354
+	Avg past 100 score: 25.98962522446495
+Episode: 1181
+	Score: 13.234595588514242
+	Avg past 100 score: 25.694710084371142
+Episode: 1182
+	Score: 9.33530413190072
+	Avg past 100 score: 25.224917639329693
+Episode: 1183
+	Score: 11.57817560976202
+	Avg past 100 score: 25.212077752284028
+Episode: 1184
+	Score: 57.47816601899369
+	Avg past 100 score: 25.036723831980066
+Episode: 1185
+	Score: 28.660404842558577
+	Avg past 100 score: 25.387460024210796
+Episode: 1186
+	Score: 13.000513706737282
+	Avg past 100 score: 25.52805706531402
+Episode: 1187
+	Score: 40.74471196964044
+	Avg past 100 score: 25.51394629966087
+Episode: 1188
+	Score: 15.648976398631932
+	Avg past 100 score: 25.68399689157366
+Episode: 1189
+	Score: 35.64700467190283
+	Avg past 100 score: 25.429795700359072
+Episode: 1190
+	Score: 15.678748969411984
+	Avg past 100 score: 25.712217405456204
+Episode: 1191
+	Score: 49.560430942145594
+	Avg past 100 score: 25.453990247473126
+Episode: 1192
+	Score: 12.893487452106042
+	Avg past 100 score: 25.775368549220516
+Episode: 1193
+	Score: 6.953644435027277
+	Avg past 100 score: 25.741200060824525
+Episode: 1194
+	Score: 23.56628975966437
+	Avg past 100 score: 25.40454875104532
+Episode: 1195
+	Score: 36.130563936259776
+	Avg past 100 score: 25.568263764983172
+Episode: 1196
+	Score: 46.72573275838723
+	Avg past 100 score: 25.743120290417842
+Episode: 1197
+	Score: 31.295735631730743
+	Avg past 100 score: 26.147295778690182
+Episode: 1198
+	Score: 19.712093254974615
+	Avg past 100 score: 26.349187723642995
+Episode: 1199
+	Score: 9.446668460668826
+	Avg past 100 score: 26.27770541416195
+Episode: 1200
+	Score: 16.139333042633638
+	Avg past 100 score: 26.273316259852457
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 1201
+	Score: 19.83773223213344
+	Avg past 100 score: 26.177601320645234
+Episode: 1202
+	Score: 9.485506953671576
+	Avg past 100 score: 26.132546663747735
+Episode: 1203
+	Score: 30.32963205014611
+	Avg past 100 score: 25.99789247677693
+Episode: 1204
+	Score: 24.21005741204135
+	Avg past 100 score: 25.986694322807445
+Episode: 1205
+	Score: 34.74654630425555
+	Avg past 100 score: 26.123203496231213
+Episode: 1206
+	Score: 12.314357195218856
+	Avg past 100 score: 26.319394073892617
+Episode: 1207
+	Score: 38.17643368574367
+	Avg past 100 score: 26.235435914407294
+Episode: 1208
+	Score: 40.29646827212788
+	Avg past 100 score: 26.290032681742236
+Episode: 1209
+	Score: 32.90052198390053
+	Avg past 100 score: 26.18416983795003
+Episode: 1210
+	Score: 37.369015415707096
+	Avg past 100 score: 25.978290215799987
+Episode: 1211
+	Score: 18.45767784516581
+	Avg past 100 score: 26.102537192843474
+Episode: 1212
+	Score: 14.636599248275159
+	Avg past 100 score: 26.137543468210975
+Episode: 1213
+	Score: 28.463255670260295
+	Avg past 100 score: 25.64792497625553
+Episode: 1214
+	Score: 22.95328154330227
+	Avg past 100 score: 25.560179111314728
+Episode: 1215
+	Score: 29.214028358290133
+	Avg past 100 score: 25.71590447296452
+Episode: 1216
+	Score: 15.74443180787123
+	Avg past 100 score: 25.529593140336218
+Episode: 1217
+	Score: 39.1553141114048
+	Avg past 100 score: 25.12962583331455
+Episode: 1218
+	Score: 20.872877788983967
+	Avg past 100 score: 25.450283989372707
+Episode: 1219
+	Score: 31.560437647117816
+	Avg past 100 score: 25.07933806897586
+Episode: 1220
+	Score: 12.92701129826971
+	Avg past 100 score: 25.202581977890173
+Episode: 1221
+	Score: 11.932427792047914
+	Avg past 100 score: 24.93458563083551
+Episode: 1222
+	Score: 14.924960040318021
+	Avg past 100 score: 24.814354259725874
+Episode: 1223
+	Score: 42.808167190206326
+	Avg past 100 score: 24.753925303712872
+Episode: 1224
+	Score: 6.4371976664459165
+	Avg past 100 score: 24.965173590131403
+Episode: 1225
+	Score: 43.81737576458942
+	Avg past 100 score: 24.943777300928595
+Episode: 1226
+	Score: 18.793457991697572
+	Avg past 100 score: 24.979414463874424
+Episode: 1227
+	Score: 30.051054791632023
+	Avg past 100 score: 24.725273261467127
+Episode: 1228
+	Score: 18.27411434960297
+	Avg past 100 score: 24.906022268896713
+Episode: 1229
+	Score: 29.69357652894475
+	Avg past 100 score: 24.981324420465704
+Episode: 1230
+	Score: 58.40499630642377
+	Avg past 100 score: 25.104386028989897
+Episode: 1231
+	Score: 10.957608880305832
+	Avg past 100 score: 25.52158367423256
+Episode: 1232
+	Score: 47.13079159291969
+	Avg past 100 score: 25.476949431678623
+Episode: 1233
+	Score: 14.515693147201093
+	Avg past 100 score: 25.70893496693705
+Episode: 1234
+	Score: 52.56976843079214
+	Avg past 100 score: 25.77793198330286
+Episode: 1235
+	Score: 31.80520868987184
+	Avg past 100 score: 26.005759069708766
+Episode: 1236
+	Score: 42.465875097973786
+	Avg past 100 score: 26.23648775550706
+Episode: 1237
+	Score: 11.521552995693954
+	Avg past 100 score: 26.35086828163994
+Episode: 1238
+	Score: 21.69414198845201
+	Avg past 100 score: 26.385971551797443
+Episode: 1239
+	Score: 40.08516812383791
+	Avg past 100 score: 26.41380276061573
+Episode: 1240
+	Score: 60.500878756865866
+	Avg past 100 score: 26.71599123858233
+Episode: 1241
+	Score: 13.69322066593238
+	Avg past 100 score: 27.003779346135826
+Episode: 1242
+	Score: 16.254374394362625
+	Avg past 100 score: 26.59118314014388
+Episode: 1243
+	Score: 10.765368658964606
+	Avg past 100 score: 26.586374385131904
+Episode: 1244
+	Score: 43.821137968366116
+	Avg past 100 score: 26.13804425956872
+Episode: 1245
+	Score: 14.370114329863675
+	Avg past 100 score: 26.45027267329215
+Episode: 1246
+	Score: 22.77108830865473
+	Avg past 100 score: 26.189524375614177
+Episode: 1247
+	Score: 25.717457110231575
+	Avg past 100 score: 26.314836358912927
+Episode: 1248
+	Score: 26.17147964116355
+	Avg past 100 score: 26.349793573864098
+Episode: 1249
+	Score: 40.232209911739275
+	Avg past 100 score: 26.548220260612535
+Episode: 1250
+	Score: 36.424026453782886
+	Avg past 100 score: 26.610614425851324
+Episode: 1251
+	Score: 9.753378875045614
+	Avg past 100 score: 26.830086781043683
+Episode: 1252
+	Score: 21.00252715184946
+	Avg past 100 score: 26.860990741184956
+Episode: 1253
+	Score: 13.579418095506053
+	Avg past 100 score: 26.823960688962302
+Episode: 1254
+	Score: 36.45429132079749
+	Avg past 100 score: 26.737609780246007
+Episode: 1255
+	Score: 5.394149247218262
+	Avg past 100 score: 26.748775528349633
+Episode: 1256
+	Score: 29.06346458357505
+	Avg past 100 score: 26.64664070963891
+Episode: 1257
+	Score: 34.77863335389305
+	Avg past 100 score: 26.772889149564165
+Episode: 1258
+	Score: 13.5753300675953
+	Avg past 100 score: 26.5500394018296
+Episode: 1259
+	Score: 28.543121296573766
+	Avg past 100 score: 26.298278801778267
+Episode: 1260
+	Score: 23.33118836835704
+	Avg past 100 score: 26.47519084130085
+Episode: 1261
+	Score: 11.17232232439247
+	Avg past 100 score: 26.102234754617513
+Episode: 1262
+	Score: 11.967029924673792
+	Avg past 100 score: 25.79724940623336
+Episode: 1263
+	Score: 23.466833421537146
+	Avg past 100 score: 25.833167723104125
+Episode: 1264
+	Score: 14.48367103375494
+	Avg past 100 score: 25.799630088351602
+Episode: 1265
+	Score: 16.00721402855759
+	Avg past 100 score: 25.570444201498653
+Episode: 1266
+	Score: 15.55805169731717
+	Avg past 100 score: 25.462597437398184
+Episode: 1267
+	Score: 23.027478708462283
+	Avg past 100 score: 25.4872196785713
+Episode: 1268
+	Score: 11.704630612649702
+	Avg past 100 score: 25.48323971232876
+Episode: 1269
+	Score: 8.79193375826898
+	Avg past 100 score: 25.301086952186466
+Episode: 1270
+	Score: 33.41342736628244
+	Avg past 100 score: 25.323746664610972
+Episode: 1271
+	Score: 30.140118155205116
+	Avg past 100 score: 25.40951936137493
+Episode: 1272
+	Score: 43.770830367607125
+	Avg past 100 score: 25.4982488211745
+Episode: 1273
+	Score: 5.3625232370739635
+	Avg past 100 score: 25.737966042956955
+Episode: 1274
+	Score: 22.83001397558573
+	Avg past 100 score: 25.08616000246564
+Episode: 1275
+	Score: 10.15291266394144
+	Avg past 100 score: 25.046862710931613
+Episode: 1276
+	Score: 48.10957962460815
+	Avg past 100 score: 24.68045268524629
+Episode: 1277
+	Score: 25.592574154704135
+	Avg past 100 score: 25.063696570659317
+Episode: 1278
+	Score: 36.49765479209071
+	Avg past 100 score: 25.264160002117382
+Episode: 1279
+	Score: 9.389098709787838
+	Avg past 100 score: 25.324365930930202
+Episode: 1280
+	Score: 29.298678024375636
+	Avg past 100 score: 25.070992986553094
+Episode: 1281
+	Score: 18.35811069048941
+	Avg past 100 score: 25.11898340915711
+Episode: 1282
+	Score: 33.11634888516908
+	Avg past 100 score: 25.17021856017686
+Episode: 1283
+	Score: 13.032353411005301
+	Avg past 100 score: 25.408029007709544
+Episode: 1284
+	Score: 28.0099544921382
+	Avg past 100 score: 25.422570785721973
+Episode: 1285
+	Score: 33.76667554185472
+	Avg past 100 score: 25.127888670453423
+Episode: 1286
+	Score: 11.94014981060966
+	Avg past 100 score: 25.178951377446378
+Episode: 1287
+	Score: 14.529290016317232
+	Avg past 100 score: 25.1683477384851
+Episode: 1288
+	Score: 12.629077022979882
+	Avg past 100 score: 24.906193518951866
+Episode: 1289
+	Score: 37.89487811973825
+	Avg past 100 score: 24.875994525195352
+Episode: 1290
+	Score: 29.244327920997005
+	Avg past 100 score: 24.898473259673708
+Episode: 1291
+	Score: 48.63437232742381
+	Avg past 100 score: 25.034129049189556
+Episode: 1292
+	Score: 57.08252017483623
+	Avg past 100 score: 25.02486846304234
+Episode: 1293
+	Score: 6.82983889633959
+	Avg past 100 score: 25.466758790269648
+Episode: 1294
+	Score: 53.69238608542152
+	Avg past 100 score: 25.465520734882766
+Episode: 1295
+	Score: 70.80405361781068
+	Avg past 100 score: 25.76678169814034
+Episode: 1296
+	Score: 48.40716796105897
+	Avg past 100 score: 26.113516594955843
+Episode: 1297
+	Score: 44.45929575694555
+	Avg past 100 score: 26.130330946982564
+Episode: 1298
+	Score: 9.586352416652847
+	Avg past 100 score: 26.261966548234714
+Episode: 1299
+	Score: 43.62864537774162
+	Avg past 100 score: 26.16070913985149
+Episode: 1300
+	Score: 9.547157190401446
+	Avg past 100 score: 26.50252890902222
+Actor model saved to: ./models/actor_walker_4l_v2_ddpg_model.pth
+Critic model saved to: ./models/critic_walker_4l_v2_ddpg_model.pth
+Episode: 1301
+	Score: 28.899161382662978
+	Avg past 100 score: 26.4366071504999
+Episode: 1302
+	Score: 7.308336862616919
+	Avg past 100 score: 26.5272214420052
+Episode: 1303
+	Score: 42.93243808451703
+	Avg past 100 score: 26.505449741094647
+Episode: 1304
+	Score: 38.991014957851306
+	Avg past 100 score: 26.631477801438354
+Episode: 1305
+	Score: 8.431482856585221
+	Avg past 100 score: 26.77928737689646
+Episode: 1306
+	Score: 54.16478891772303
+	Avg past 100 score: 26.516136742419757
+Episode: 1307
+	Score: 16.58064178453589
+	Avg past 100 score: 26.934641059644797
+Episode: 1308
+	Score: 20.478636019270525
+	Avg past 100 score: 26.71868314063272
+Episode: 1309
+	Score: 31.27804503376088
+	Avg past 100 score: 26.520504818104147
+Episode: 1310
+	Score: 28.122455759862937
+	Avg past 100 score: 26.50428004860275
+Episode: 1311
+	Score: 11.82736572132192
+	Avg past 100 score: 26.41181445204431
+Episode: 1312
+	Score: 55.225330104374066
+	Avg past 100 score: 26.345511330805866
+Episode: 1313
+	Score: 7.99914506772025
+	Avg past 100 score: 26.751398639366855
+Episode: 1314
+	Score: 46.002154221927576
+	Avg past 100 score: 26.546757533341456
+Episode: 1315
+	Score: 7.869665043682538
+	Avg past 100 score: 26.777246260127708
+Episode: 1316
+	Score: 28.269582119601015
+	Avg past 100 score: 26.563802626981637
+Episode: 1317
+	Score: 40.86181944185361
+	Avg past 100 score: 26.68905413009893
+Episode: 1318
+	Score: 32.68119520287621
+	Avg past 100 score: 26.70611918340342
+Episode: 1319
+	Score: 24.855455588676378
+	Avg past 100 score: 26.824202357542344
+Episode: 1320
+	Score: 49.98167131654918
+	Avg past 100 score: 26.757152536957925
+Episode: 1321
+	Score: 52.72710386782206
+	Avg past 100 score: 27.12769913714072
+Episode: 1322
+	Score: 49.579769572581746
+	Avg past 100 score: 27.535645897898462
+Episode: 1323
+	Score: 64.0792723191394
+	Avg past 100 score: 27.882193993221104
+Episode: 1324
+	Score: 18.643250920026645
+	Avg past 100 score: 28.094905044510433
+Episode: 1325
+	Score: 22.114465609531507
+	Avg past 100 score: 28.216965577046246
+Episode: 1326
+	Score: 49.60797693309459
+	Avg past 100 score: 27.999936475495666
+Episode: 1327
+	Score: 7.517197048968889
+	Avg past 100 score: 28.308081664909633
+Episode: 1328
+	Score: 38.54330358425664
+	Avg past 100 score: 28.082743087483
+Episode: 1329
+	Score: 28.66615437204019
+	Avg past 100 score: 28.28543497982953
+Episode: 1330
+	Score: 13.940916516564107
+	Avg past 100 score: 28.275160758260487
+Episode: 1331
+	Score: 56.27136873250658
+	Avg past 100 score: 27.830519960361883
+Episode: 1332
+	Score: 17.36972453925674
+	Avg past 100 score: 28.283657558883903
+Episode: 1333
+	Score: 26.191746918992568
+	Avg past 100 score: 27.986046888347275
+Episode: 1334
+	Score: 29.937132093378093
+	Avg past 100 score: 28.102807426065187
+Episode: 1335
+	Score: 19.056213264925074
+	Avg past 100 score: 27.876481062691045
+Episode: 1336
+	Score: 5.952190993163226
+	Avg past 100 score: 27.748991108441583
+Episode: 1337
+	Score: 55.892774371218614
+	Avg past 100 score: 27.38385426739347
+Episode: 1338
+	Score: 10.118998720818624
+	Avg past 100 score: 27.827566481148725
+Episode: 1339
+	Score: 33.99064764651385
+	Avg past 100 score: 27.71181504847239
+Episode: 1340
+	Score: 32.29432214466347
+	Avg past 100 score: 27.650869843699148
+Episode: 1341
+	Score: 57.24755620319312
+	Avg past 100 score: 27.368804277577123
+Episode: 1342
+	Score: 13.585520967163825
+	Avg past 100 score: 27.804347632949728
+Episode: 1343
+	Score: 27.84368025714701
+	Avg past 100 score: 27.777659098677745
+Episode: 1344
+	Score: 40.782173782417715
+	Avg past 100 score: 27.94844221465957
+Episode: 1345
+	Score: 13.687859096564356
+	Avg past 100 score: 27.918052572800082
+Episode: 1346
+	Score: 24.258902749216016
+	Avg past 100 score: 27.91123002046709
+Episode: 1347
+	Score: 17.82360921554606
+	Avg past 100 score: 27.926108164872698
+Episode: 1348
+	Score: 8.069175097075377
+	Avg past 100 score: 27.847169685925845
+Episode: 1349
+	Score: 52.240802483887144
+	Avg past 100 score: 27.666146640484964
+Episode: 1350
+	Score: 15.173421678090977
+	Avg past 100 score: 27.786232566206444
+Episode: 1351
+	Score: 52.827750308947124
+	Avg past 100 score: 27.573726518449526
+Episode: 1352
+	Score: 74.21326155562632
+	Avg past 100 score: 28.004470232788538
+Episode: 1353
+	Score: 98.11857935468751
+	Avg past 100 score: 28.536577576826303
+Episode: 1354
+	Score: 40.7444472705776
+	Avg past 100 score: 29.38196918941812
+Episode: 1355
+	Score: 38.923853384479045
+	Avg past 100 score: 29.424870748915914
+Episode: 1356
+	Score: 61.673757824030794
+	Avg past 100 score: 29.760167790288524
+Episode: 1357
+	Score: 30.443212080916222
+	Avg past 100 score: 30.086270722693083
+Episode: 1358
+	Score: 32.84119149178943
+	Avg past 100 score: 30.042916509963316
+Episode: 1359
+	Score: 46.03493731722913
+	Avg past 100 score: 30.235575124205255
+Episode: 1360
+	Score: 22.88770603549413
+	Avg past 100 score: 30.410493284411803
+Episode: 1361
+	Score: 40.89781289361417
+	Avg past 100 score: 30.406058461083177
+Episode: 1362
+	Score: 28.798398366028614
+	Avg past 100 score: 30.70331336677539
+Episode: 1363
+	Score: 40.13059005319057
+	Avg past 100 score: 30.87162705118895
+Episode: 1364
+	Score: 7.147192176812414
+	Avg past 100 score: 31.038264617505483
+Episode: 1365
+	Score: 40.53602672351355
+	Avg past 100 score: 30.964899828936062
+Episode: 1366
+	Score: 23.366000404412087
+	Avg past 100 score: 31.210187955885623
+Episode: 1367
+	Score: 63.87864484879274
+	Avg past 100 score: 31.28826744295657
+Episode: 1368
+	Score: 9.620240846225482
+	Avg past 100 score: 31.696779104359877
+Episode: 1369
+	Score: 30.783847442955118
+	Avg past 100 score: 31.67593520669563
+Episode: 1370
+	Score: 18.787831702608276
+	Avg past 100 score: 31.895854343542492
+Episode: 1371
+	Score: 33.23943078771911
+	Avg past 100 score: 31.749598386905745
+Episode: 1372
+	Score: 15.058451412584294
+	Avg past 100 score: 31.780591513230885
+Episode: 1373
+	Score: 40.59237260439177
+	Avg past 100 score: 31.49346772368066
+Episode: 1374
+	Score: 43.742621489546515
+	Avg past 100 score: 31.84576621735384
+Episode: 1375
+	Score: 42.795939527917646
+	Avg past 100 score: 32.05489229249344
+Episode: 1376
+	Score: 81.76412659591401
+	Avg past 100 score: 32.3813225611332
+Episode: 1377
+	Score: 64.87361960578708
+	Avg past 100 score: 32.71786803084626
+Episode: 1378
+	Score: 30.100171949037097
+	Avg past 100 score: 33.11067848535709
+Episode: 1379
+	Score: 81.8177506214177
+	Avg past 100 score: 33.04670365692657
+Episode: 1380
+	Score: 30.88260507270355
+	Avg past 100 score: 33.770990176042865
+Episode: 1381
+	Score: 51.38964594773611
+	Avg past 100 score: 33.78682944652614
+Episode: 1382
+	Score: 25.678464878181156
+	Avg past 100 score: 34.11714479909861
+Episode: 1383
+	Score: 12.379450384358114
+	Avg past 100 score: 34.04276595902873
+Episode: 1384
+	Score: 44.84774523076008
+	Avg past 100 score: 34.03623692876226
+Episode: 1385
+	Score: 26.85275298361243
+	Avg past 100 score: 34.20461483614847
+Episode: 1386
+	Score: 12.100644208829511
+	Avg past 100 score: 34.135475610566054
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 7efb25de3700 -> priority: 1 
+  Thread -> id: 7efb255e2700 -> priority: 1 
+  Thread -> id: 7efb24de1700 -> priority: 1 
+  Thread -> id: 7efaf3fff700 -> priority: 1 
+  Thread -> id: 7efaf37fe700 -> priority: 1 
+  Thread -> id: 7efaf2ffd700 -> priority: 1 
+  Thread -> id: 7efaf27fc700 -> priority: 1 
+  Thread -> id: 7efaf1ffb700 -> priority: 1 
