@@ -14,11 +14,11 @@ An implementation of Deep Deterministic Policy Gradients using PyTorch running r
   * Action space: 39
   * Number of agents: 11
 
-![Gif of a trained agent playing the walker environment](https://github.com/KJ-Waller/DDPG-Unity-PyTorch/tree/master/Walker/figures/episode.gif)
+![](https://github.com/KJ-Waller/DDPG-Unity-PyTorch/tree/master/Walker/figures/episode.gif)
 
 * 3DBall environment
   * State space: 8
   * Action space: 2
   * Number of agents: 12
 
-![Gif of a trained agent playing the 3DBall environment](https://github.com/KJ-Waller/DDPG-Unity-PyTorch/tree/master/3DBall/episode.gif)
+![](https://github.com/KJ-Waller/DDPG-Unity-PyTorch/tree/master/3DBall/episode.gif)
